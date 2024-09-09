@@ -1,0 +1,70 @@
+ .__   __.   ______   .___  ___.   ______    _______   _______   ______   ______      .______   ____    ____ 
+ |  \ |  |  /  __  \  |   \/   |  /  __  \  |       \ |   ____| /      | /  __  \     |   _  \  \   \  /   / 
+ |   \|  | |  |  |  | |  \  /  | |  |  |  | |  .--.  ||  |__   |  ,----'|  |  |  |    |  |_)  |  \   \/   /  
+ |  . `  | |  |  |  | |  |\/|  | |  |  |  | |  |  |  ||   __|  |  |     |  |  |  |    |   ___/    \_    _/   
+ |  |\   | |  `--'  | |  |  |  | |  `--'  | |  '--'  ||  |____ |  `----.|  `--'  |  __|  |          |  |     
+ |__| \__|  \______/  |__|  |__|  \______/  |_______/ |_______| \______| \______/  (__) _|          |__|     
+                                                                                                             
+
+
+**************************************************************************************************************
+                                  Kemal Önen, Dennis F. Dinu, Klaus R. Liedl                                  
+                                      Liedl Lab, University of Innsbruck                                      
+**************************************************************************************************************
+
+Planar system detected. Therefore out-of-plane angles are used in your analysis. Note that out-of-plane angles tend to perform worse
+than the other internal coordinates in terms of computational cost and in the decomposition. However they can be
+useful for planar systems.
+
+The detected point group is C2v
+The following equivalent atoms were found: [['H2']] 
+
+The following primitive internals (bonds, (in-plane) angles, linear valence angles, out-of-plane angles and torsions) were generated:
+bonds: [('O', 'H1'), ('O', 'H2'), ('H1', 'H2')]
+in-plane angles: [('H1', 'O', 'H2'), ('O', 'H1', 'H2'), ('O', 'H2', 'H1')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: []
+
+3 internal coordinates are at least needed for the decomposition scheme.
+
+
+Due to having a cyclic molecule, 1 bond(s) is/are removed in the analysis
+
+The following updated Internal Coordinates are used in your analysis:
+bonds: [('O', 'H2'), ('H1', 'H2')]
+in-plane angles: []
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: []
+
+
+Due to having a cyclic molecule, 1 bond(s) is/are removed in the analysis
+
+The following updated Internal Coordinates are used in your analysis:
+bonds: [('H1', 'H2'), ('O', 'H1')]
+in-plane angles: []
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: []
+
+
+Due to having a cyclic molecule, 1 bond(s) is/are removed in the analysis
+
+The following updated Internal Coordinates are used in your analysis:
+bonds: [('O', 'H1'), ('O', 'H2')]
+in-plane angles: []
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: []
+
+
+Due to having a cyclic molecule, 1 bond(s) is/are removed in the analysis
+
+The following updated Internal Coordinates are used in your analysis:
+bonds: [('O', 'H2'), ('H1', 'H2')]
+in-plane angles: []
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: []
+
