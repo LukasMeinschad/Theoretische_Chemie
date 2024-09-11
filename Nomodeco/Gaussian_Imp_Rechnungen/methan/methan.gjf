@@ -1,5 +1,5 @@
 %chk=methan.chk
-# opt freq hf/6-311g(d,p) geom=connectivity
+#p opt freq hf/6-311g(d,p) geom=connectivity
 
 Title Card Required
 
