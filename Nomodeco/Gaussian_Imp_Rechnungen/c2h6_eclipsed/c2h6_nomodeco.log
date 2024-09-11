@@ -1,0 +1,338 @@
+ .__   __.   ______   .___  ___.   ______    _______   _______   ______   ______      .______   ____    ____ 
+ |  \ |  |  /  __  \  |   \/   |  /  __  \  |       \ |   ____| /      | /  __  \     |   _  \  \   \  /   / 
+ |   \|  | |  |  |  | |  \  /  | |  |  |  | |  .--.  ||  |__   |  ,----'|  |  |  |    |  |_)  |  \   \/   /  
+ |  . `  | |  |  |  | |  |\/|  | |  |  |  | |  |  |  ||   __|  |  |     |  |  |  |    |   ___/    \_    _/   
+ |  |\   | |  `--'  | |  |  |  | |  `--'  | |  '--'  ||  |____ |  `----.|  `--'  |  __|  |          |  |     
+ |__| \__|  \______/  |__|  |__|  \______/  |_______/ |_______| \______| \______/  (__) _|          |__|     
+                                                                                                             
+
+
+**************************************************************************************************************
+                                  Kemal Önen, Dennis F. Dinu, Klaus R. Liedl                                  
+                                      Liedl Lab, University of Innsbruck                                      
+**************************************************************************************************************
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H1', 'C1', 'C2', 'H4')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H1', 'C1', 'C2', 'H5')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H1', 'C1', 'C2', 'H6')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H2', 'C1', 'C2', 'H4')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H2', 'C1', 'C2', 'H5')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H2', 'C1', 'C2', 'H6')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H3', 'C1', 'C2', 'H4')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H3', 'C1', 'C2', 'H5')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H3', 'C1', 'C2', 'H6')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H6', 'C2', 'C1', 'H2')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H4', 'C2', 'C1', 'H3')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H6', 'C2', 'C1', 'H1')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H5', 'C2', 'C1', 'H3')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H6', 'C2', 'C1', 'H3')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H4', 'C2', 'C1', 'H2')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H5', 'C2', 'C1', 'H2')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H4', 'C2', 'C1', 'H1')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 20 Internal Coordinates are used in your analysis:
+bonds: [('C2', 'H6'), ('C1', 'C2'), ('C1', 'H1'), ('C2', 'H4'), ('C1', 'H2'), ('C2', 'H5'), ('C1', 'H3')]
+in-plane angles: [('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'), ('H2', 'C1', 'H3'), ('H4', 'C2', 'H5'), ('H4', 'C2', 'H6'),
+ ('H5', 'C2', 'H6'), ('H1', 'C1', 'C2'), ('H2', 'C1', 'C2'), ('H3', 'C1', 'C2'), ('C1', 'C2', 'H4'),
+ ('C1', 'C2', 'H5'), ('C1', 'C2', 'H6')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H5', 'C2', 'C1', 'H1')]
+
+
+
+No! The double transformed f-matrix is NOT the same as in the input.
+
+This set is not complete and will not be computed!
+
