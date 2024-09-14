@@ -1,0 +1,10 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/lukas/Desktop/Theoretische_Chemie/Math_Animations/media/videos/test/480p15/partial_movie_files/Vectors/1185818338_227128536_223132457.mp4'
+file 'file:/Users/lukas/Desktop/Theoretische_Chemie/Math_Animations/media/videos/test/480p15/partial_movie_files/Vectors/624642324_2896326737_1239570728.mp4'
+file 'file:/Users/lukas/Desktop/Theoretische_Chemie/Math_Animations/media/videos/test/480p15/partial_movie_files/Vectors/624642324_1097026354_1692799334.mp4'
+file 'file:/Users/lukas/Desktop/Theoretische_Chemie/Math_Animations/media/videos/test/480p15/partial_movie_files/Vectors/624642324_1010147444_874862727.mp4'
+file 'file:/Users/lukas/Desktop/Theoretische_Chemie/Math_Animations/media/videos/test/480p15/partial_movie_files/Vectors/624642324_1704852926_2742727054.mp4'
+file 'file:/Users/lukas/Desktop/Theoretische_Chemie/Math_Animations/media/videos/test/480p15/partial_movie_files/Vectors/624642324_1359828550_2553133814.mp4'
+file 'file:/Users/lukas/Desktop/Theoretische_Chemie/Math_Animations/media/videos/test/480p15/partial_movie_files/Vectors/624642324_1704852926_3433041174.mp4'
+file 'file:/Users/lukas/Desktop/Theoretische_Chemie/Math_Animations/media/videos/test/480p15/partial_movie_files/Vectors/624642324_830031405_1692799334.mp4'
+file 'file:/Users/lukas/Desktop/Theoretische_Chemie/Math_Animations/media/videos/test/480p15/partial_movie_files/Vectors/624642324_952765580_2198443492.mp4'
