@@ -17,11 +17,11 @@ than the other internal coordinates in terms of computational cost and in the de
 useful for planar systems.
 
 The detected point group is C2v
-The following equivalent atoms were found: [['D1', 'D2'], ['O']] 
+The following equivalent atoms were found: [['H1', 'H2'], ['O']] 
 
 The following primitive internals (bonds, (in-plane) angles, linear valence angles, out-of-plane angles and torsions) were generated:
-bonds: [('O', 'D2'), ('O', 'D1')]
-in-plane angles: [('D1', 'O', 'D2')]
+bonds: [('O', 'H1'), ('O', 'H2')]
+in-plane angles: [('H1', 'O', 'H2')]
 linear valence-angles: []
 out-of-plane angles: []
 dihedrals: []
@@ -32,8 +32,8 @@ dihedrals: []
 -------------------------------- Initialization of an internal coordinate set --------------------------------
 
 The following 3 Internal Coordinates are used in your analysis:
-bonds: [('O', 'D2'), ('O', 'D1')]
-in-plane angles: [('D1', 'O', 'D2')]
+bonds: [('O', 'H1'), ('O', 'H2')]
+in-plane angles: [('H1', 'O', 'H2')]
 linear valence-angles: []
 out-of-plane angles: []
 dihedrals: []
@@ -45,10 +45,10 @@ dihedrals: []
     vibrational distribution matrix (exact approximation) at the following
     harmonic frequencies (all frequency values in cm-1):
 
-Internal Coordinate Intrinsic Frequencies  1281  2987  3106
-            (O, D2)               3048.81 -0.00  0.50  0.50
-            (O, D1)               3048.81 -0.00  0.50  0.50
-        (D1, O, D2)               1272.69  1.00 -0.00 -0.00
+Internal Coordinate Intrinsic Frequencies  1750  4142 4238
+            (O, H1)               4190.14 -0.00  0.50 0.50
+            (O, H2)               4190.14 -0.00  0.50 0.50
+        (H1, O, H2)               1748.86  1.00 -0.00 0.00
 
 Check if matrix is normalized: 1.0
 
@@ -56,92 +56,92 @@ Check if matrix is normalized: 1.0
     diagonal elements of the PED matrix at the following
     harmonic frequencies (all frequency values in cm-1):
 
-Internal Coordinate Intrinsic Frequencies 1281 2987 3106
-            (O, D2)               3048.81 0.00 0.51 0.50
-            (O, D1)               3048.81 0.00 0.51 0.50
-        (D1, O, D2)               1272.69 1.01 0.00 0.00
+Internal Coordinate Intrinsic Frequencies 1750 4142 4238
+            (O, H1)               4190.14 0.01 0.50 0.50
+            (O, H2)               4190.14 0.01 0.50 0.50
+        (H1, O, H2)               1748.86 1.02 0.00 0.00
 
 3.) Intrinsic Frequencies for all normal-coordinate frequencies and
     contribution table calculated from the diagonal elements of the PED at the following
     harmonic frequencies (all frequency values in cm-1):
 
-Internal Coordinate Intrinsic Frequencies  1281  2987  3106
-            (O, D2)               3048.81  0.45 49.96 50.00
-            (O, D1)               3048.81  0.45 49.96 50.00
-        (D1, O, D2)               1272.69 99.09  0.08  0.00
+Internal Coordinate Intrinsic Frequencies  1750  4142  4238
+            (O, H1)               4190.14  0.73 50.00 50.00
+            (O, H2)               4190.14  0.73 50.00 50.00
+        (H1, O, H2)               1748.86 98.53  0.00  0.00
 
 ----- Extended Results: Exact PED, KED and TED analysis per mode -----
 
-Normal mode at the following harmonic frequency: 1281 cm-1
+Normal mode at the following harmonic frequency: 1750 cm-1
 
 Potential energy distribution matrix (normalization check: 1.0)
 
-Internal Coordinate (O, D2) (O, D1) (D1, O, D2)
-            (O, D2)    0.00   -0.00       -0.01
-            (O, D1)   -0.00    0.00       -0.01
-        (D1, O, D2)   -0.01   -0.01        1.01
+Internal Coordinate (O, H1) (O, H2) (H1, O, H2)
+            (O, H1)    0.01   -0.00       -0.01
+            (O, H2)   -0.00    0.01       -0.01
+        (H1, O, H2)   -0.01   -0.01        1.02
 
 Kinetic energy distribution matrix (normalization check: 1.0)
 
-Internal Coordinate (O, D2) (O, D1) (D1, O, D2)
-            (O, D2)    0.00   -0.00        0.00
-            (O, D1)   -0.00    0.00        0.00
-        (D1, O, D2)    0.00    0.00        1.17
+Internal Coordinate (O, H1) (O, H2) (H1, O, H2)
+            (O, H1)    0.00   -0.00        0.00
+            (O, H2)   -0.00    0.00        0.00
+        (H1, O, H2)    0.00    0.00        1.31
 
 Total energy distribution matrix (normalization check: 1.0)
 
-Internal Coordinate (O, D2) (O, D1) (D1, O, D2)
-            (O, D2)    0.00   -0.00       -0.00
-            (O, D1)   -0.00    0.00       -0.00
-        (D1, O, D2)   -0.00   -0.00        1.09
+Internal Coordinate (O, H1) (O, H2) (H1, O, H2)
+            (O, H1)    0.00   -0.00       -0.00
+            (O, H2)   -0.00    0.00       -0.00
+        (H1, O, H2)   -0.00   -0.00        1.16
 
 ----- Extended Results: Exact PED, KED and TED analysis per mode -----
 
-Normal mode at the following harmonic frequency: 2987 cm-1
+Normal mode at the following harmonic frequency: 4142 cm-1
 
 Potential energy distribution matrix (normalization check: 1.0)
 
-Internal Coordinate (O, D2) (O, D1) (D1, O, D2)
-            (O, D2)    0.51   -0.00       -0.00
-            (O, D1)   -0.00    0.51       -0.00
-        (D1, O, D2)   -0.00   -0.00        0.00
+Internal Coordinate (O, H1) (O, H2) (H1, O, H2)
+            (O, H1)    0.50   -0.00       -0.00
+            (O, H2)   -0.00    0.50       -0.00
+        (H1, O, H2)   -0.00   -0.00        0.00
 
 Kinetic energy distribution matrix (normalization check: 1.0)
 
-Internal Coordinate (O, D2) (O, D1) (D1, O, D2)
-            (O, D2)    0.57   -0.02        0.00
-            (O, D1)   -0.02    0.57        0.00
-        (D1, O, D2)    0.00    0.00        0.01
+Internal Coordinate (O, H1) (O, H2) (H1, O, H2)
+            (O, H1)    0.63   -0.05        0.00
+            (O, H2)   -0.05    0.63        0.00
+        (H1, O, H2)    0.00    0.00        0.00
 
 Total energy distribution matrix (normalization check: 1.0)
 
-Internal Coordinate (O, D2) (O, D1) (D1, O, D2)
-            (O, D2)    0.54   -0.01       -0.00
-            (O, D1)   -0.01    0.54       -0.00
-        (D1, O, D2)   -0.00   -0.00        0.00
+Internal Coordinate (O, H1) (O, H2) (H1, O, H2)
+            (O, H1)    0.57   -0.03        0.00
+            (O, H2)   -0.03    0.57        0.00
+        (H1, O, H2)    0.00    0.00        0.00
 
 ----- Extended Results: Exact PED, KED and TED analysis per mode -----
 
-Normal mode at the following harmonic frequency: 3106 cm-1
+Normal mode at the following harmonic frequency: 4238 cm-1
 
 Potential energy distribution matrix (normalization check: 1.0)
 
-Internal Coordinate (O, D2) (O, D1) (D1, O, D2)
-            (O, D2)    0.50    0.00       -0.00
-            (O, D1)    0.00    0.50        0.00
-        (D1, O, D2)   -0.00    0.00        0.00
+Internal Coordinate (O, H1) (O, H2) (H1, O, H2)
+            (O, H1)    0.50    0.00       -0.00
+            (O, H2)    0.00    0.50        0.00
+        (H1, O, H2)   -0.00    0.00        0.00
 
 Kinetic energy distribution matrix (normalization check: 1.0)
 
-Internal Coordinate (O, D2) (O, D1) (D1, O, D2)
-            (O, D2)    0.61    0.02        0.00
-            (O, D1)    0.02    0.61       -0.00
-        (D1, O, D2)    0.00   -0.00        0.00
+Internal Coordinate (O, H1) (O, H2) (H1, O, H2)
+            (O, H1)    0.65    0.05        0.00
+            (O, H2)    0.05    0.65       -0.00
+        (H1, O, H2)    0.00   -0.00        0.00
 
 Total energy distribution matrix (normalization check: 1.0)
 
-Internal Coordinate (O, D2) (O, D1) (D1, O, D2)
-            (O, D2)    0.55    0.01       -0.00
-            (O, D1)    0.01    0.55        0.00
-        (D1, O, D2)   -0.00    0.00        0.00
+Internal Coordinate (O, H1) (O, H2) (H1, O, H2)
+            (O, H1)    0.58    0.03        0.00
+            (O, H2)    0.03    0.58       -0.00
+        (H1, O, H2)    0.00   -0.00        0.00
 
