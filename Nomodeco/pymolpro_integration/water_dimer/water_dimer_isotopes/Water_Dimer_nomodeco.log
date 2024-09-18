@@ -1,0 +1,2224 @@
+ .__   __.   ______   .___  ___.   ______    _______   _______   ______   ______      .______   ____    ____ 
+ |  \ |  |  /  __  \  |   \/   |  /  __  \  |       \ |   ____| /      | /  __  \     |   _  \  \   \  /   / 
+ |   \|  | |  |  |  | |  \  /  | |  |  |  | |  .--.  ||  |__   |  ,----'|  |  |  |    |  |_)  |  \   \/   /  
+ |  . `  | |  |  |  | |  |\/|  | |  |  |  | |  |  |  ||   __|  |  |     |  |  |  |    |   ___/    \_    _/   
+ |  |\   | |  `--'  | |  |  |  | |  `--'  | |  '--'  ||  |____ |  `----.|  `--'  |  __|  |          |  |     
+ |__| \__|  \______/  |__|  |__|  \______/  |_______/ |_______| \______| \______/  (__) _|          |__|     
+                                                                                                             
+
+
+**************************************************************************************************************
+                                  Kemal Önen, Dennis F. Dinu, Klaus R. Liedl                                  
+                                      Liedl Lab, University of Innsbruck                                      
+**************************************************************************************************************
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('H2', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('H6', 'O4', 'H2'), ('D5', 'O4', 'H2'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('H2', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('H6', 'O4', 'H2'), ('O1', 'O4', 'H6'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('H2', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('H6', 'O4', 'H2'), ('O4', 'O1', 'H3'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('H2', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('H6', 'O4', 'H2'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('H2', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('D5', 'O4', 'H2'), ('O1', 'O4', 'H6'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+-------------------------- Results of the Decomposition Scheme ---------------------------
+
+1.) Intrinsic Frequencies for all normal-coordinate frequencies and
+    vibrational distribution matrix (exact approximation) at the following
+    harmonic frequencies (all frequency values in cm-1):
+
+Internal Coordinate Intrinsic Frequencies 97.79 120.62 141.54 169.99 327.09 592.74 1534.3 1779.03 3040.69 4099.62 4185.89 4214.09
+           (H2, O4)                291.92  0.01   0.01   0.00   0.99  -0.00  -0.00   0.00   -0.00   -0.00    0.00   -0.00    0.00
+           (O4, D5)               3044.92 -0.00   0.00  -0.00   0.00  -0.00   0.00  -0.00    0.00    1.00    0.00    0.00    0.00
+           (O4, H6)               4184.73 -0.00  -0.00   0.00  -0.00  -0.00  -0.00  -0.00    0.00    0.00    0.00    0.99    0.01
+           (O1, H2)               4113.14 -0.00  -0.00  -0.00   0.00   0.00   0.00   0.00   -0.00    0.00    0.82    0.00    0.17
+           (O1, H3)               4194.56  0.00   0.00   0.00   0.00   0.00   0.00   0.00   -0.00   -0.00    0.17    0.01    0.82
+       (D5, O4, H2)                311.36  0.57   0.09  -0.01  -0.00   0.18   0.17   0.00    0.00   -0.00    0.00    0.00   -0.00
+       (O1, O4, H6)                274.15  0.07   0.18   0.50  -0.00   0.18   0.07   0.01    0.00    0.00    0.00   -0.00   -0.00
+       (D5, O4, H6)               1522.37  0.00   0.00   0.00   0.00   0.00   0.00   0.99    0.00   -0.00    0.00   -0.00   -0.00
+       (H2, O1, H3)               1728.02  0.00   0.00   0.00   0.00   0.05   0.00   0.00    0.94   -0.00   -0.00    0.00    0.00
+       (O1, H2, O4)                514.21 -0.00   0.16   0.12   0.01   0.51   0.15  -0.00    0.05   -0.00    0.00   -0.00    0.00
+       (O1, H2, O4)                491.58  0.32  -0.00  -0.00   0.00   0.09   0.59   0.00    0.01    0.00    0.00   -0.00    0.00
+   (H3, O1, O4, D5)                137.44  0.04   0.56   0.37  -0.00  -0.00   0.01  -0.00   -0.00    0.00    0.00    0.00   -0.00
+
+Check if matrix is normalized: 1.0
+
+2.) Intrinsic Frequencies for all normal-coordinate frequencies and
+    diagonal elements of the PED matrix at the following
+    harmonic frequencies (all frequency values in cm-1):
+
+Internal Coordinate Intrinsic Frequencies 97.79 120.62 141.54 169.99 327.09 592.74 1534.3 1779.03 3040.69 4099.62 4185.89 4214.09
+           (H2, O4)                291.92  0.00   0.00   0.00   1.00   0.01   0.00   0.00    0.00    0.00    0.01    0.00    0.00
+           (O4, D5)               3044.92  0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00    1.00    0.00    0.00    0.00
+           (O4, H6)               4184.73  0.00   0.00   0.00   0.00   0.00   0.00   0.01    0.00    0.00    0.00    0.99    0.01
+           (O1, H2)               4113.14  0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.01    0.00    0.83    0.00    0.17
+           (O1, H3)               4194.56  0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.01    0.00    0.17    0.01    0.82
+       (D5, O4, H2)                311.36  1.71   0.24   0.00   0.03   0.10   0.07   0.00    0.00    0.00    0.00    0.00    0.00
+       (O1, O4, H6)                274.15  0.84   0.86   1.15   0.01   0.09   0.01   0.01    0.00    0.00    0.00    0.00    0.00
+       (D5, O4, H6)               1522.37  0.00   0.01   0.00   0.00   0.00   0.00   1.00    0.00    0.00    0.00    0.00    0.00
+       (H2, O1, H3)               1728.02  0.00   0.02   0.01   0.00   0.09   0.00   0.00    0.93    0.00    0.00    0.00    0.00
+       (O1, H2, O4)                514.21  0.03   1.06   0.67   0.01   0.45   0.08   0.00    0.03    0.00    0.00    0.00    0.00
+       (O1, H2, O4)                491.58  2.23   0.00   0.00   0.02   0.15   0.39   0.00    0.01    0.00    0.00    0.00    0.00
+   (H3, O1, O4, D5)                137.44  0.05   0.88   0.29   0.00   0.00   0.00   0.00    0.00    0.00    0.00    0.00    0.00
+
+3.) Intrinsic Frequencies for all normal-coordinate frequencies and
+    contribution table calculated from the diagonal elements of the PED at the following
+    harmonic frequencies (all frequency values in cm-1):
+
+Internal Coordinate Intrinsic Frequencies 97.79 120.62 141.54 169.99 327.09 592.74 1534.3 1779.03 3040.69 4099.62 4185.89 4214.09
+           (H2, O4)                291.92  0.08   0.11   0.12  94.07   1.02   0.00   0.03    0.00    0.00    1.19    0.00    0.23
+           (O4, D5)               3044.92  0.02   0.02   0.00   0.00   0.03   0.00   0.45    0.00   99.71    0.00    0.19    0.00
+           (O4, H6)               4184.73  0.00   0.02   0.04   0.00   0.04   0.01   0.55    0.00    0.26    0.26   98.95    0.60
+           (O1, H2)               4113.14  0.00   0.00   0.00   0.07   0.02   0.00   0.01    0.60    0.00   81.65    0.02   17.34
+           (O1, H3)               4194.56  0.00   0.00   0.00   0.00   0.07   0.00   0.00    0.83    0.00   16.91    0.84   81.84
+       (D5, O4, H2)                311.36 35.05   7.71   0.17   2.48  10.90  12.26   0.20    0.07    0.00    0.00    0.00    0.00
+       (O1, O4, H6)                274.15 17.14  28.06  53.99   0.59  10.02   2.46   0.71    0.00    0.00    0.00    0.00    0.00
+       (D5, O4, H6)               1522.37  0.01   0.21   0.12   0.35   0.33   0.28  97.93    0.02    0.02    0.00    0.00    0.00
+       (H2, O1, H3)               1728.02  0.08   0.66   0.65   0.01   9.61   0.01   0.04   94.98    0.00    0.00    0.00    0.00
+       (O1, H2, O4)                514.21  0.69  34.47  31.14   0.92  51.12  14.89   0.00    2.94    0.00    0.00    0.00    0.00
+       (O1, H2, O4)                491.58 45.80   0.06   0.16   1.43  16.52  69.84   0.00    0.56    0.00    0.00    0.00    0.00
+   (H3, O1, O4, D5)                137.44  1.12  28.68  13.62   0.07   0.33   0.24   0.08    0.00    0.00    0.00    0.00    0.00
+
+The following diagonalization parameter, penalty for asymmetric instrinsic frequencies and penalty for unphysical contributions has been determined: 73.98, 0, 0.0 
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('H2', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('D5', 'O4', 'H2'), ('O4', 'O1', 'H3'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('H2', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('D5', 'O4', 'H2'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('H2', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O1', 'O4', 'H6'), ('O4', 'O1', 'H3'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('H2', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O1', 'O4', 'H6'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('H2', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('H2', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('H6', 'O4', 'H2'), ('D5', 'O4', 'H2'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('H6', 'O4', 'H2'), ('O1', 'O4', 'H6'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('H6', 'O4', 'H2'), ('O4', 'O1', 'H3'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('H6', 'O4', 'H2'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('D5', 'O4', 'H2'), ('O1', 'O4', 'H6'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('D5', 'O4', 'H2'), ('O4', 'O1', 'H3'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('D5', 'O4', 'H2'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O1', 'O4', 'H6'), ('O4', 'O1', 'H3'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O1', 'O4', 'H6'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+-------------------------- Results of the Decomposition Scheme ---------------------------
+
+1.) Intrinsic Frequencies for all normal-coordinate frequencies and
+    vibrational distribution matrix (exact approximation) at the following
+    harmonic frequencies (all frequency values in cm-1):
+
+Internal Coordinate Intrinsic Frequencies 97.79 120.62 141.54 169.99 327.09 592.74 1534.3 1779.03 3040.69 4099.62 4185.89 4214.09
+           (O1, O4)                162.41  0.01   0.01   0.00   0.99  -0.00   0.00   0.00   -0.00   -0.00   -0.00   -0.00   -0.00
+           (O4, D5)               3044.92 -0.00   0.00  -0.00   0.00  -0.00   0.00  -0.00    0.00    1.00    0.00    0.00    0.00
+           (O4, H6)               4184.73 -0.00  -0.00   0.00  -0.00  -0.00  -0.00  -0.00    0.00    0.00    0.00    0.99    0.01
+           (O1, H2)               4120.28  0.00   0.00   0.00  -0.00   0.00   0.00   0.00   -0.00    0.00    0.83    0.00    0.17
+           (O1, H3)               4194.56  0.00   0.00   0.00   0.00   0.00   0.00   0.00   -0.00   -0.00    0.17    0.01    0.82
+       (O1, O4, H6)                274.15  0.07   0.18   0.50  -0.00   0.18   0.07   0.01    0.00    0.00    0.00   -0.00   -0.00
+       (O1, O4, D5)                205.53  0.76   0.09  -0.01  -0.00   0.10   0.06   0.00    0.00   -0.00    0.00    0.00   -0.00
+       (D5, O4, H6)               1522.37  0.00   0.00   0.00   0.00   0.00   0.00   0.99    0.00   -0.00    0.00   -0.00   -0.00
+       (H2, O1, H3)               1728.02  0.00   0.00   0.00   0.00   0.05   0.00   0.00    0.94   -0.00   -0.00    0.00    0.00
+       (O1, H2, O4)                514.78 -0.00   0.15   0.12   0.01   0.52   0.15  -0.00    0.05   -0.00    0.00   -0.00    0.00
+       (O1, H2, O4)                543.91  0.13  -0.00  -0.00   0.01   0.15   0.71   0.00    0.01   -0.00    0.00   -0.00    0.00
+   (H3, O1, O4, D5)                137.46  0.04   0.56   0.37  -0.00  -0.00   0.01  -0.00   -0.00    0.00    0.00    0.00   -0.00
+
+Check if matrix is normalized: 1.0
+
+2.) Intrinsic Frequencies for all normal-coordinate frequencies and
+    diagonal elements of the PED matrix at the following
+    harmonic frequencies (all frequency values in cm-1):
+
+Internal Coordinate Intrinsic Frequencies 97.79 120.62 141.54 169.99 327.09 592.74 1534.3 1779.03 3040.69 4099.62 4185.89 4214.09
+           (O1, O4)                162.41  0.01   0.00   0.00   1.00   0.01   0.00   0.00    0.00    0.00    0.00    0.00    0.00
+           (O4, D5)               3044.92  0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00    1.00    0.00    0.00    0.00
+           (O4, H6)               4184.73  0.00   0.00   0.00   0.00   0.00   0.00   0.01    0.00    0.00    0.00    0.99    0.01
+           (O1, H2)               4120.28  0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.01    0.00    0.83    0.00    0.17
+           (O1, H3)               4194.56  0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.01    0.00    0.17    0.01    0.82
+       (O1, O4, H6)                274.15  0.84   0.86   1.15   0.01   0.09   0.01   0.01    0.00    0.00    0.00    0.00    0.00
+       (O1, O4, D5)                205.53  3.04   0.25   0.00   0.04   0.03   0.01   0.00    0.00    0.00    0.00    0.00    0.00
+       (D5, O4, H6)               1522.37  0.00   0.01   0.00   0.00   0.00   0.00   1.00    0.00    0.00    0.00    0.00    0.00
+       (H2, O1, H3)               1728.02  0.00   0.02   0.01   0.00   0.09   0.00   0.00    0.93    0.00    0.00    0.00    0.00
+       (O1, H2, O4)                514.78  0.03   1.06   0.67   0.01   0.46   0.08   0.00    0.03    0.00    0.00    0.00    0.00
+       (O1, H2, O4)                543.91  3.27   0.00   0.00   0.02   0.21   0.57   0.00    0.01    0.00    0.00    0.00    0.00
+   (H3, O1, O4, D5)                137.46  0.05   0.88   0.29   0.00   0.00   0.00   0.00    0.00    0.00    0.00    0.00    0.00
+
+3.) Intrinsic Frequencies for all normal-coordinate frequencies and
+    contribution table calculated from the diagonal elements of the PED at the following
+    harmonic frequencies (all frequency values in cm-1):
+
+Internal Coordinate Intrinsic Frequencies 97.79 120.62 141.54 169.99 327.09 592.74 1534.3 1779.03 3040.69 4099.62 4185.89 4214.09
+           (O1, O4)                162.41  0.09   0.12   0.13  92.30   1.14   0.00   0.03    0.01    0.00    0.00    0.00    0.00
+           (O4, D5)               3044.92  0.01   0.02   0.00   0.00   0.03   0.00   0.45    0.00   99.71    0.00    0.19    0.00
+           (O4, H6)               4184.73  0.00   0.02   0.04   0.00   0.04   0.01   0.55    0.00    0.26    0.26   98.95    0.60
+           (O1, H2)               4120.28  0.00   0.00   0.00   0.07   0.02   0.00   0.01    0.59    0.00   82.52    0.02   17.27
+           (O1, H3)               4194.56  0.00   0.00   0.00   0.00   0.07   0.00   0.00    0.83    0.00   17.21    0.84   82.13
+       (O1, O4, H6)                274.15 11.52  27.88  53.88   0.57   9.94   2.03   0.71    0.00    0.00    0.00    0.00    0.00
+       (O1, O4, D5)                205.53 41.98   8.11   0.15   3.68   3.65   1.04   0.22    0.00    0.00    0.00    0.00    0.00
+       (D5, O4, H6)               1522.37  0.01   0.21   0.11   0.34   0.32   0.23  97.91    0.02    0.02    0.00    0.00    0.00
+       (H2, O1, H3)               1728.02  0.05   0.66   0.65   0.01   9.53   0.01   0.04   94.78    0.00    0.00    0.00    0.00
+       (O1, H2, O4)                514.78  0.47  34.39  31.21   0.90  50.93  12.30   0.00    2.95    0.00    0.00    0.00    0.00
+       (O1, H2, O4)                543.91 45.11   0.08   0.23   2.04  24.00  84.18   0.01    0.82    0.00    0.00    0.00    0.00
+   (H3, O1, O4, D5)                137.46  0.75  28.51  13.60   0.07   0.33   0.20   0.08    0.00    0.00    0.00    0.00    0.00
+
+The following diagonalization parameter, penalty for asymmetric instrinsic frequencies and penalty for unphysical contributions has been determined: 75.65, 0, 0.0 
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'H2', 'O4')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('O1', 'H2', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H3', 'O1', 'O4', 'H6')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 12 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'O4'), ('O4', 'D5'), ('O4', 'H6'), ('O1', 'H2'), ('O1', 'H3')]
+in-plane angles: [('O4', 'O1', 'H3'), ('O1', 'O4', 'D5'), ('D5', 'O4', 'H6'), ('H2', 'O1', 'H3')]
+linear valence-angles: [('O1', 'H2', 'O4'), ('O1', 'H2', 'O4')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'O4', 'D5')]
+
+
+
+Imaginary frequency values were detected for the intrinsic frequencies.
+The computation will be stopped
+

@@ -1,0 +1,10 @@
+
+                     orient,mass
+                     geometry=/home/lme/Theoretische_Chemie/Nomodeco/pymolpro_integration/water_dimer/water_dimer_isotopes/water_dimer.xyz
+                     mass,H3=2.014 ! Set custom mass for hydrogen
+                     basis=6-311g(d,p)
+                     {hf 
+                     start, atden}
+                     optg;
+                     {frequencies, symm=auto, print=0, analytical}
+                     put, molden, Water_Dimer_H3.molden

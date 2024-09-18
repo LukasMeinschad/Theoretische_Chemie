@@ -1,0 +1,29 @@
+ .__   __.   ______   .___  ___.   ______    _______   _______   ______   ______      .______   ____    ____ 
+ |  \ |  |  /  __  \  |   \/   |  /  __  \  |       \ |   ____| /      | /  __  \     |   _  \  \   \  /   / 
+ |   \|  | |  |  |  | |  \  /  | |  |  |  | |  .--.  ||  |__   |  ,----'|  |  |  |    |  |_)  |  \   \/   /  
+ |  . `  | |  |  |  | |  |\/|  | |  |  |  | |  |  |  ||   __|  |  |     |  |  |  |    |   ___/    \_    _/   
+ |  |\   | |  `--'  | |  |  |  | |  `--'  | |  '--'  ||  |____ |  `----.|  `--'  |  __|  |          |  |     
+ |__| \__|  \______/  |__|  |__|  \______/  |_______/ |_______| \______| \______/  (__) _|          |__|     
+                                                                                                             
+
+
+**************************************************************************************************************
+                                  Kemal Önen, Dennis F. Dinu, Klaus R. Liedl                                  
+                                      Liedl Lab, University of Innsbruck                                      
+**************************************************************************************************************
+
+Planar submolecule(s) detected. Out-of-plane angles will be used for the central atoms of the planar subunits 
+
+The detected point group is Cs
+The following equivalent atoms were found: [['O1'], ['O2'], ['H2'], ['H1', 'H3'], ['H1']] 
+
+The following primitive internals (bonds, (in-plane) angles, linear valence angles, out-of-plane angles and torsions) were generated:
+bonds: [('O2', 'H3'), frozenset({'O2', 'H1'}), ('O1', 'H1'), ('O1', 'H2'), ('H1', 'H1')]
+in-plane angles: [('H1', 'O1', 'H2'), ('H3', 'O2', 'H1')]
+linear valence-angles: [('O2', 'H1', 'O1'), ('O2', 'H1', 'O1')]
+out-of-plane angles: []
+dihedrals: [('H2', 'O1', 'H1', 'H1'), ('H1', 'H1', 'O1', 'H2'), ('O2', 'H1', 'H1', 'O1'), ('H3', 'O2', 'H1', 'H1'),
+ ('O2', 'H1', 'O1', 'H2'), ('H3', 'O2', 'H1', 'O1')]
+
+12 internal coordinates are at least needed for the decomposition scheme.
+

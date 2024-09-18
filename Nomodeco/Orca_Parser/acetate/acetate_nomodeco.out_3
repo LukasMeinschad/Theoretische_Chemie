@@ -1,0 +1,31 @@
+ .__   __.   ______   .___  ___.   ______    _______   _______   ______   ______      .______   ____    ____ 
+ |  \ |  |  /  __  \  |   \/   |  /  __  \  |       \ |   ____| /      | /  __  \     |   _  \  \   \  /   / 
+ |   \|  | |  |  |  | |  \  /  | |  |  |  | |  .--.  ||  |__   |  ,----'|  |  |  |    |  |_)  |  \   \/   /  
+ |  . `  | |  |  |  | |  |\/|  | |  |  |  | |  |  |  ||   __|  |  |     |  |  |  |    |   ___/    \_    _/   
+ |  |\   | |  `--'  | |  |  |  | |  `--'  | |  '--'  ||  |____ |  `----.|  `--'  |  __|  |          |  |     
+ |__| \__|  \______/  |__|  |__|  \______/  |_______/ |_______| \______| \______/  (__) _|          |__|     
+                                                                                                             
+
+
+**************************************************************************************************************
+                                  Kemal Önen, Dennis F. Dinu, Klaus R. Liedl                                  
+                                      Liedl Lab, University of Innsbruck                                      
+**************************************************************************************************************
+
+Planar submolecule(s) detected. Out-of-plane angles will be used for the central atoms of the planar subunits 
+
+The detected point group is Cs
+The following equivalent atoms were found: [['C1'], ['H1', 'H2'], ['H3'], ['H4'], ['O1'], ['O2'], ['C2']] 
+
+The following primitive internals (bonds, (in-plane) angles, linear valence angles, out-of-plane angles and torsions) were generated:
+bonds: [('C1', 'H1'), ('C1', 'H2'), ('O2', 'H4'), ('C1', 'H3'), ('C1', 'C2'), ('C2', 'O2'), ('C2', 'O1')]
+in-plane angles: [('C2', 'C1', 'H1'), ('C2', 'C1', 'H2'), ('C2', 'C1', 'H3'), ('H1', 'C1', 'H2'), ('H1', 'C1', 'H3'),
+ ('H2', 'C1', 'H3'), ('C1', 'C2', 'O1'), ('C1', 'C2', 'O2'), ('O1', 'C2', 'O2'), ('C2', 'O2', 'H4')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: [('H1', 'C1', 'C2', 'O1'), ('H1', 'C1', 'C2', 'O2'), ('H2', 'C1', 'C2', 'O1'), ('H2', 'C1', 'C2', 'O2'),
+ ('H3', 'C1', 'C2', 'O1'), ('H3', 'C1', 'C2', 'O2'), ('C1', 'C2', 'O2', 'H4'), ('O1', 'C2', 'O2', 'H4'),
+ ('H4', 'O2', 'C2', 'O1'), ('H4', 'O2', 'C2', 'C1')]
+
+18 internal coordinates are at least needed for the decomposition scheme.
+
