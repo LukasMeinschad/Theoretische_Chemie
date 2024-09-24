@@ -1,0 +1,10 @@
+
+                 orient,mass
+                 geometry=/home/lme/Theoretische_Chemie/Nomodeco/deuterium_calculations/h2o_dimer_deuterium/water_dimer.xyz
+                 mass,H5=2.014 ! Set custom mass for hydrogen
+                 basis=6-311g(d,p)
+                 {hf 
+                 start, atden}
+                 optg;
+                 {frequencies, symm=auto, print=0, analytical}
+                 put, molden, Water_dimer_h4.molden

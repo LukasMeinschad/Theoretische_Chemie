@@ -1,0 +1,10 @@
+
+            orient,mass
+            geometry=/home/lme/Theoretische_Chemie/Nomodeco/pubchempy_integration/water.xyz
+            mass, iso
+            basis=6-311g(d,p)
+            {hf 
+            start, atden}
+            optg;
+            {frequencies, symm=auto, print=0, analytical}
+            put, molden, water.molden

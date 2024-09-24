@@ -3,17 +3,15 @@
 	<dict>
 		<key>project_hash</key>
 		<string>269153044992774698</string>
-		<key>backend</key>
-		<string>local</string>
-		<key>run_input_hash</key>
-		<string>2355132915938198225</string>
 		<key>run_directories</key>
-		<string>Water_Dimer_1 Water_Dimer_2 </string>
+		<string>Water_Dimer_1 Water_Dimer_2 Water_Dimer_3 </string>
 		<key>current_run</key>
 		<string>0</string>
 		<key>jobnumber</key>
-		<string>2261348</string>
+		<string>2285796</string>
 		<key>_status</key>
 		<string>3</string>
+		<key>backend</key>
+		<string>local</string>
 	</dict>
 </plist>
