@@ -6,16 +6,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
  <job>
   <stm:metadataList>
-   <stm:metadata name="dc:date" content="2024-09-21T23:07:16+02:00"/>
+   <stm:metadata name="dc:date" content="2024-09-30T15:16:32+02:00"/>
    <stm:metadata name="dc:creator" content="lme"/>
    <stm:metadata name="cmlm:insilico" content="Molpro"/>
   </stm:metadataList>
-  <platform pid="2624474">
+  <platform pid="3782849">
    <version major="2024" minor="1" SHA="675817fde4514a4a933b69e420913a90cee4ef91"
      integer_bits="64" parallelism="serial">
     2024.1
-    <date year="2024" month="9" day="21" hour="23" minute="7" second="16">
-     2024-09-21T23:07:16
+    <date year="2024" month="9" day="30" hour="15" minute="16" second="32">
+     2024-09-30T15:16:32
     </date>
    </version>
    <licence id="liedlgroup"/>
@@ -50,7 +50,7 @@
    <property name="Virial quotient" method="RHF" value="-0.999862442834722"/>
    <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1"
      stateNumber="1" value="0.0 0.795737970471081 0.312008943981031"/>
-   <time start="23:07:16" end="23:07:16" cpu="0.22" system="0.06" real="0.28"/>
+   <time start="15:16:32" end="15:16:32" cpu="0.25" system="0.07" real="0.32"/>
    <storage units="megabyte" memory="244.14" sf="0.0" df="33.56" eaf="0.0"/>
    <summary overall_method="HF/6-311G(D,P)"/>
   </jobstep>
@@ -90,7 +90,7 @@
     <property name="Virial quotient" method="RHF" value="-0.998974142200366"/>
     <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1"
       stateNumber="1" value="0.0 0.785836294646155 0.308126495874936"/>
-    <time start="23:07:16" end="23:07:16" cpu="0.08" system="0.04" real="0.12"/>
+    <time start="15:16:32" end="15:16:32" cpu="0.1" system="0.02" real="0.12"/>
     <storage units="megabyte" memory="244.14" sf="0.0" df="33.91" eaf="0.0"/>
     <summary overall_method="HF/6-311G(D,P)"/>
    </jobstep>
@@ -129,7 +129,7 @@
     <property name="Virial quotient" method="RHF" value="-0.999006452171695"/>
     <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1"
       stateNumber="1" value="0.0 0.782642488682124 0.30687420422583"/>
-    <time start="23:07:16" end="23:07:16" cpu="0.08" system="0.03" real="0.11"/>
+    <time start="15:16:32" end="15:16:32" cpu="0.09" system="0.03" real="0.12"/>
     <storage units="megabyte" memory="244.14" sf="0.0" df="33.91" eaf="0.0"/>
     <summary overall_method="HF/6-311G(D,P)"/>
    </jobstep>
@@ -168,7 +168,7 @@
     <property name="Virial quotient" method="RHF" value="-0.999003420061059"/>
     <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1"
       stateNumber="1" value="0.0 0.782989304221969 0.307010190579813"/>
-    <time start="23:07:16" end="23:07:17" cpu="0.09" system="0.03" real="0.12"/>
+    <time start="15:16:32" end="15:16:32" cpu="0.09" system="0.03" real="0.11"/>
     <storage units="megabyte" memory="244.14" sf="0.0" df="33.91" eaf="0.0"/>
     <summary overall_method="HF/6-311G(D,P)"/>
    </jobstep>
@@ -182,11 +182,11 @@
     <property name="Virial quotient" method="RHF" value="-0.999003417199232"/>
     <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1"
       stateNumber="1" value="0.0 0.788517388466414 0.292519271752309"/>
-    <time start="23:07:17" end="23:07:17" cpu="0.05" system="0.02" real="0.08"/>
+    <time start="15:16:32" end="15:16:33" cpu="0.05" system="0.03" real="0.08"/>
     <storage units="megabyte" memory="244.14" sf="0.0" df="33.91" eaf="0.0"/>
     <summary overall_method="HF/6-311G(D,P)"/>
    </jobstep>
-   <time start="23:07:16" end="23:07:17" cpu="0.3" system="0.12" real="0.43"/>
+   <time start="15:16:32" end="15:16:33" cpu="0.33" system="0.11" real="0.43"/>
    <storage units="megabyte" memory="0.18" sf="0.0" df="33.91" eaf="0.0"/>
    <summary overall_method="HF/6-311G(D,P)//HF/6-311G(D,P)"/>
   </jobstep>
@@ -264,7 +264,7 @@
      -0.07778049 -0.08959286 -0.38703802
     </normalCoordinate>
    </vibrations>
-   <time start="23:07:17" end="23:07:17" cpu="0.18" system="0.02" real="0.2"/>
+   <time start="15:16:33" end="15:16:33" cpu="0.19" system="0.0" real="0.21"/>
    <storage units="megabyte" memory="244.14" sf="0.0" df="33.91" eaf="0.0"/>
    <summary overall_method="HF/6-311G(D,P)//HF/6-311G(D,P)"/>
   </jobstep>
@@ -272,7 +272,7 @@
    <p>                 orient,mass</p>
    <p>                 geometry=/home/lme/Theoretische_Chemie/Nomodeco/deuterium_calculations/h2o/h2o.xyz</p>
    <include file="/home/lme/Theoretische_Chemie/Nomodeco/deuterium_calculations/h2o/h2o.xyz"/>
-   <p>                 mass,H2=2.014 ! Set custom mass for hydrogen</p>
+   <p>                 mass, H1=2.014; ! Set custom mass for hydrogen</p>
    <p>                 basis=6-311g(d,p)</p>
    <p>                 {hf</p>
    <p>                 start, atden}</p>

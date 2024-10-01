@@ -1,0 +1,10 @@
+
+                    orient,mass
+                    geometry=initial.xyz
+                    mass, iso
+                    basis=6-311g(d,p)
+                    {hf 
+                    start, atden}
+                    optg;
+                    {frequencies, symm=auto, print=0, analytical}
+                    put, molden, CH3Cl.molden

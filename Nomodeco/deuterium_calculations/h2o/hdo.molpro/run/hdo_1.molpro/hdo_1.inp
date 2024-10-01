@@ -1,7 +1,7 @@
 
                  orient,mass
                  geometry=/home/lme/Theoretische_Chemie/Nomodeco/deuterium_calculations/h2o/h2o.xyz
-                 mass,H2=2.014 ! Set custom mass for hydrogen
+                 mass, H1=2.014; ! Set custom mass for hydrogen
                  basis=6-311g(d,p)
                  {hf 
                  start, atden}

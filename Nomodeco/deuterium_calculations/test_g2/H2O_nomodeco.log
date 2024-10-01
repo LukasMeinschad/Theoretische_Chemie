@@ -1,0 +1,57 @@
+ .__   __.   ______   .___  ___.   ______    _______   _______   ______   ______      .______   ____    ____ 
+ |  \ |  |  /  __  \  |   \/   |  /  __  \  |       \ |   ____| /      | /  __  \     |   _  \  \   \  /   / 
+ |   \|  | |  |  |  | |  \  /  | |  |  |  | |  .--.  ||  |__   |  ,----'|  |  |  |    |  |_)  |  \   \/   /  
+ |  . `  | |  |  |  | |  |\/|  | |  |  |  | |  |  |  ||   __|  |  |     |  |  |  |    |   ___/    \_    _/   
+ |  |\   | |  `--'  | |  |  |  | |  `--'  | |  '--'  ||  |____ |  `----.|  `--'  |  __|  |          |  |     
+ |__| \__|  \______/  |__|  |__|  \______/  |_______/ |_______| \______| \______/  (__) _|          |__|     
+                                                                                                             
+
+
+**************************************************************************************************************
+                                  Kemal Önen, Dennis F. Dinu, Klaus R. Liedl                                  
+                                      Liedl Lab, University of Innsbruck                                      
+**************************************************************************************************************
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 3 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'D2'), ('O1', 'D3')]
+in-plane angles: [('D2', 'O1', 'D3')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: []
+
+
+-------------------------- Results of the Decomposition Scheme ---------------------------
+
+1.) Intrinsic Frequencies for all normal-coordinate frequencies and
+    vibrational distribution matrix (exact approximation) at the following
+    harmonic frequencies (all frequency values in cm-1):
+
+Internal Coordinate Intrinsic Frequencies 1281.13 2986.74 3106.01
+           (O1, D2)               3048.61   -0.00    0.50    0.50
+           (O1, D3)               3048.61   -0.00    0.50    0.50
+       (D2, O1, D3)               1273.24    1.00   -0.00   -0.00
+
+Check if matrix is normalized: 1.0
+
+2.) Intrinsic Frequencies for all normal-coordinate frequencies and
+    diagonal elements of the PED matrix at the following
+    harmonic frequencies (all frequency values in cm-1):
+
+Internal Coordinate Intrinsic Frequencies 1281.13 2986.74 3106.01
+           (O1, D2)               3048.61    0.00    0.51    0.50
+           (O1, D3)               3048.61    0.00    0.51    0.50
+       (D2, O1, D3)               1273.24    1.01    0.00    0.00
+
+3.) Intrinsic Frequencies for all normal-coordinate frequencies and
+    contribution table calculated from the diagonal elements of the PED at the following
+    harmonic frequencies (all frequency values in cm-1):
+
+Internal Coordinate Intrinsic Frequencies 1281.13 2986.74 3106.01
+           (O1, D2)               3048.61    0.46   49.96   50.00
+           (O1, D3)               3048.61    0.46   49.96   50.00
+       (D2, O1, D3)               1273.24   99.09    0.08    0.00
+
+The following diagonalization parameter, penalty for asymmetric instrinsic frequencies and penalty for unphysical contributions has been determined: 66.36, 0, 0.0 

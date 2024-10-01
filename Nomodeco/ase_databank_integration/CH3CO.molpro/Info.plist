@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <plist>
 	<dict>
-		<key>backend</key>
-		<string>local</string>
 		<key>project_hash</key>
 		<string>18196973084023779455</string>
+		<key>backend</key>
+		<string>local</string>
 		<key>run_input_hash</key>
-		<string>4410675439557908604</string>
+		<string>850118421340164092</string>
 		<key>run_directories</key>
-		<string>CH3CO_1 </string>
+		<string>CH3CO_1 CH3CO_2 </string>
 		<key>current_run</key>
 		<string>0</string>
 		<key>jobnumber</key>
-		<string>2791165</string>
+		<string>3775391</string>
 		<key>_status</key>
 		<string>3</string>
 	</dict>

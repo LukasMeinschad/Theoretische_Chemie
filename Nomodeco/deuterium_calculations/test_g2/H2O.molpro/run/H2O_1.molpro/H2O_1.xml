@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<molpro xmlns="http://www.molpro.net/schema/molpro-output"
+  xmlns:xsd="http://www.w3.org/1999/XMLSchema"
+  xmlns:cml="http://www.xml-cml.org/schema"
+  xmlns:stm="http://www.xml-cml.org/schema"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+ <job>
+  <stm:metadataList>
+   <stm:metadata name="dc:date" content="2024-09-30T10:49:45+02:00"/>
+   <stm:metadata name="dc:creator" content="lme"/>
+   <stm:metadata name="cmlm:insilico" content="Molpro"/>
+  </stm:metadataList>
+  <platform pid="3750822">
+   <version major="2024" minor="1" SHA="675817fde4514a4a933b69e420913a90cee4ef91"
+     integer_bits="64" parallelism="serial">
+    2024.1
+    <date year="2024" month="9" day="30" hour="10" minute="49" second="45">
+     2024-09-30T10:49:45
+    </date>
+   </version>
+   <licence id="liedlgroup"/>
+   <parallel processes="1" nodes="1" all_processes="1" openmp="6"/>
+   <dimensions natom="400" nvalence="500" nvalence_pno="1000" nbasis="12000" nstate="100"
+     nsymm="16" nrec="1024" nprim="2" ncol="100"/>
+  </platform>
+  <jobstep command="HF-SCF" commandset="SCFPRO">
+   <cml:molecule>
+    <cml:symmetry pointGroup="Cs">
+     <cml:transform3 title="generator" id="X">
+      -1  0  0  0  0  1  0  0  0  0  1  0  0  0  0  1
+     </cml:transform3>
+    </cml:symmetry>
+    <cml:atomArray>
+     <cml:atom id="a1" elementType="O" x3="0.0" y3="-0.733360348651752E-01"
+       z3="-0.722908207093649E-01"/>
+     <cml:atom id="a2" elementType="H" x3="0.0" y3="0.201597461964643" z3="0.856396156867541"/>
+     <cml:atom id="a3" elementType="H" x3="0.0" y3="0.761270777848971" z3="-0.563696354022873"/>
+    </cml:atomArray>
+    <cml:bondArray>
+     <cml:bond atomRefs2="a1 a2"/>
+     <cml:bond atomRefs2="a1 a3"/>
+    </cml:bondArray>
+   </cml:molecule>
+   <property name="Energy" method="RHF" principal="true" stateSymmetry="1" stateNumber="1"
+     value="-76.0454319387678"/>
+   <property name="One-electron energy" method="RHF" value="-122.962873297816"/>
+   <property name="Two-electron energy" method="RHF" value="37.8288024851068"/>
+   <property name="Kinetic energy" method="RHF" value="76.0163324465906"/>
+   <property name="Nuclear energy" method="RHF" value="9.08863887394156"/>
+   <property name="Virial quotient" method="RHF" value="-1.00038280578976"/>
+   <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1"
+     stateNumber="1" value="0.0 0.799187672647598 0.31496822298424"/>
+   <time start="10:49:45" end="10:49:45" cpu="0.24" system="0.06" real="0.31"/>
+   <storage units="megabyte" memory="244.14" sf="0.0" df="33.56" eaf="0.0"/>
+   <summary overall_method="HF/6-311G(D,P)"/>
+  </jobstep>
+  <jobstep command="OPTG" commandset="OPT">
+   <gradient name="SCF GRADIENT" stateSymmetry="1" stateNumber="1"
+     virial="0.106353615918107">
+      0.000000000000  -0.034478425959  -0.013588308397
+      0.000000000000   0.009028382142   0.027627985394
+      0.000000000000   0.025450043817  -0.014039676997
+   </gradient>
+   <opt energy="-76.04543194" type="HF-SCF000" line="0.0"
+     convergence="1.00177828219538" gradient="0.553447242582624E-01"/>
+   <jobstep command="HF-SCF" commandset="SCFPRO">
+    <cml:molecule>
+     <cml:symmetry pointGroup="Cs">
+      <cml:transform3 title="generator" id="X">
+      -1  0  0  0  0  1  0  0  0  0  1  0  0  0  0  1
+      </cml:transform3>
+     </cml:symmetry>
+     <cml:atomArray>
+      <cml:atom id="a1" elementType="O" x3="0.0" y3="-0.71143895836002E-01"
+        z3="-0.695737182145258E-01"/>
+      <cml:atom id="a2" elementType="H" x3="0.0" y3="0.198249987285524" z3="0.831051832304994"/>
+      <cml:atom id="a3" elementType="H" x3="0.0" y3="0.733162859540732" z3="-0.5561845378304"/>
+     </cml:atomArray>
+     <cml:bondArray>
+      <cml:bond atomRefs2="a1 a2"/>
+      <cml:bond atomRefs2="a1 a3"/>
+     </cml:bondArray>
+    </cml:molecule>
+    <property name="Energy" method="RHF" principal="true" stateSymmetry="1" stateNumber="1"
+      value="-76.0469849009855"/>
+    <property name="One-electron energy" method="RHF" value="-123.451215946899"/>
+    <property name="Two-electron energy" method="RHF" value="38.0415478971068"/>
+    <property name="Kinetic energy" method="RHF" value="76.1281196554326"/>
+    <property name="Nuclear energy" method="RHF" value="9.36268314880702"/>
+    <property name="Virial quotient" method="RHF" value="-0.9989342340936"/>
+    <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1"
+      stateNumber="1" value="0.0 0.787253862381162 0.310264983509927"/>
+    <time start="10:49:45" end="10:49:45" cpu="0.08" system="0.04" real="0.11"/>
+    <storage units="megabyte" memory="244.14" sf="0.0" df="33.91" eaf="0.0"/>
+    <summary overall_method="HF/6-311G(D,P)"/>
+   </jobstep>
+   <gradient name="SCF GRADIENT" stateSymmetry="1" stateNumber="1"
+     virial="-0.561122911982356E-02">
+      0.000000000000  -0.000670315950  -0.000264178531
+      0.000000000000   0.001169668737  -0.001985364702
+      0.000000000000  -0.000499352788   0.002249543233
+   </gradient>
+   <opt energy="-76.0469849" type="HF-SCF000" line="0.0"
+     convergence="0.184506381946237E-01" gradient="0.333747055278339E-02"/>
+   <jobstep command="HF-SCF" commandset="SCFPRO">
+    <cml:molecule>
+     <cml:symmetry pointGroup="Cs">
+      <cml:transform3 title="generator" id="X">
+      -1  0  0  0  0  1  0  0  0  0  1  0  0  0  0  1
+      </cml:transform3>
+     </cml:symmetry>
+     <cml:atomArray>
+      <cml:atom id="a1" elementType="O" x3="0.0" y3="-0.710916867462038E-01"
+        z3="-0.685312429189381E-01"/>
+      <cml:atom id="a2" elementType="H" x3="0.0" y3="0.203084718122171" z3="0.831696871336829"/>
+      <cml:atom id="a3" elementType="H" x3="0.0" y3="0.722673681597279" z3="-0.574021004142226"/>
+     </cml:atomArray>
+     <cml:bondArray>
+      <cml:bond atomRefs2="a1 a2"/>
+      <cml:bond atomRefs2="a1 a3"/>
+     </cml:bondArray>
+    </cml:molecule>
+    <property name="Energy" method="RHF" principal="true" stateSymmetry="1" stateNumber="1"
+      value="-76.0470117864423"/>
+    <property name="One-electron energy" method="RHF" value="-123.43265024904"/>
+    <property name="Two-electron energy" method="RHF" value="38.0353612165711"/>
+    <property name="Kinetic energy" method="RHF" value="76.1224114321984"/>
+    <property name="Nuclear energy" method="RHF" value="9.35027724602702"/>
+    <property name="Virial quotient" method="RHF" value="-0.999009494781662"/>
+    <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1"
+      stateNumber="1" value="0.0 0.781988195179644 0.308189728995348"/>
+    <time start="10:49:45" end="10:49:45" cpu="0.09" system="0.02" real="0.11"/>
+    <storage units="megabyte" memory="244.14" sf="0.0" df="33.91" eaf="0.0"/>
+    <summary overall_method="HF/6-311G(D,P)"/>
+   </jobstep>
+   <gradient name="SCF GRADIENT" stateSymmetry="1" stateNumber="1"
+     virial="0.497540053328764E-03">
+      0.000000000000   0.000076712635   0.000030233256
+      0.000000000000  -0.000114255915   0.000177467949
+      0.000000000000   0.000037543280  -0.000207701205
+   </gradient>
+   <opt energy="-76.04701179" type="HF-SCF000" line="0.0"
+     convergence="0.158246245115162E-02" gradient="0.309673140203581E-03"/>
+   <jobstep command="HF-SCF" commandset="SCFPRO">
+    <cml:molecule>
+     <cml:symmetry pointGroup="Cs">
+      <cml:transform3 title="generator" id="X">
+      -1  0  0  0  0  1  0  0  0  0  1  0  0  0  0  1
+      </cml:transform3>
+     </cml:symmetry>
+     <cml:atomArray>
+      <cml:atom id="a1" elementType="O" x3="0.0" y3="-0.710997015144802E-01"
+        z3="-0.686195835931065E-01"/>
+      <cml:atom id="a2" elementType="H" x3="0.0" y3="0.202691176306608" z3="0.831643707492066"/>
+      <cml:atom id="a3" elementType="H" x3="0.0" y3="0.723587252544067" z3="-0.572512511805733"/>
+     </cml:atomArray>
+     <cml:bondArray>
+      <cml:bond atomRefs2="a1 a2"/>
+      <cml:bond atomRefs2="a1 a3"/>
+     </cml:bondArray>
+    </cml:molecule>
+    <property name="Energy" method="RHF" principal="true" stateSymmetry="1" stateNumber="1"
+      value="-76.0470120277889"/>
+    <property name="One-electron energy" method="RHF" value="-123.434110648527"/>
+    <property name="Two-electron energy" method="RHF" value="38.0358316128314"/>
+    <property name="Kinetic energy" method="RHF" value="76.1228715942569"/>
+    <property name="Nuclear energy" method="RHF" value="9.35126700790719"/>
+    <property name="Virial quotient" method="RHF" value="-0.999003458948944"/>
+    <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1"
+      stateNumber="1" value="0.0 0.782451248237985 0.308372222985893"/>
+    <time start="10:49:45" end="10:49:45" cpu="0.07" system="0.04" real="0.11"/>
+    <storage units="megabyte" memory="244.14" sf="0.0" df="33.91" eaf="0.0"/>
+    <summary overall_method="HF/6-311G(D,P)"/>
+   </jobstep>
+   <gradient name="SCF GRADIENT" stateSymmetry="1" stateNumber="1"
+     virial="0.599263715445243E-05">
+      0.000000000000   0.000000021581   0.000000008511
+      0.000000000000  -0.000000790406   0.000001973899
+      0.000000000000   0.000000768825  -0.000001982410
+   </gradient>
+   <opt energy="-76.04701203" type="HF-SCF000" line="0.0"
+     convergence="0.134417336865465E-04" gradient="0.300709146850407E-05"/>
+   <jobstep command="HF-SCF" commandset="SCFPRO">
+    <cml:molecule>
+     <cml:symmetry pointGroup="Cs">
+      <cml:transform3 title="generator" id="X">
+      -1  0  0  0  0  1  0  0  0  0  1  0  0  0  0  1
+      </cml:transform3>
+     </cml:symmetry>
+     <cml:atomArray>
+      <cml:atom id="a1" elementType="O" x3="0.0" y3="-0.710997239405071E-01"
+        z3="-0.686202562226873E-01"/>
+      <cml:atom id="a2" elementType="H" x3="0.0" y3="0.202687886546544" z3="0.831642819202026"/>
+      <cml:atom id="a3" elementType="H" x3="0.0" y3="0.723594181904687" z3="-0.572500059987318"/>
+     </cml:atomArray>
+     <cml:bondArray>
+      <cml:bond atomRefs2="a1 a2"/>
+      <cml:bond atomRefs2="a1 a3"/>
+     </cml:bondArray>
+    </cml:molecule>
+    <property name="Energy" method="RHF" principal="true" stateSymmetry="1" stateNumber="1"
+      value="-76.0470120278263"/>
+    <property name="One-electron energy" method="RHF" value="-123.434131499567"/>
+    <property name="Two-electron energy" method="RHF" value="38.035839287928"/>
+    <property name="Kinetic energy" method="RHF" value="76.1228773523031"/>
+    <property name="Nuclear energy" method="RHF" value="9.35128018381282"/>
+    <property name="Virial quotient" method="RHF" value="-0.999003383383346"/>
+    <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1"
+      stateNumber="1" value="0.0 0.78245477289016 0.308373612053883"/>
+    <time start="10:49:45" end="10:49:45" cpu="0.09" system="0.02" real="0.11"/>
+    <storage units="megabyte" memory="244.14" sf="0.0" df="33.91" eaf="0.0"/>
+    <summary overall_method="HF/6-311G(D,P)"/>
+   </jobstep>
+   <jobstep command="HF-SCF" commandset="SCFPRO">
+    <property name="Energy" method="RHF" principal="true" stateSymmetry="1" stateNumber="1"
+      value="-76.0470120278077"/>
+    <property name="One-electron energy" method="RHF" value="-123.434131594243"/>
+    <property name="Two-electron energy" method="RHF" value="38.0358393826221"/>
+    <property name="Kinetic energy" method="RHF" value="76.1228774835251"/>
+    <property name="Nuclear energy" method="RHF" value="9.35128018381282"/>
+    <property name="Virial quotient" method="RHF" value="-0.999003381661002"/>
+    <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1"
+      stateNumber="1" value="0.0 0.78851768135645 0.29252283130673"/>
+    <time start="10:49:45" end="10:49:45" cpu="0.05" system="0.03" real="0.08"/>
+    <storage units="megabyte" memory="244.14" sf="0.0" df="33.91" eaf="0.0"/>
+    <summary overall_method="HF/6-311G(D,P)"/>
+   </jobstep>
+   <time start="10:49:45" end="10:49:45" cpu="0.38" system="0.15" real="0.52"/>
+   <storage units="megabyte" memory="0.18" sf="0.0" df="33.91" eaf="0.0"/>
+   <summary overall_method="HF/6-311G(D,P)//HF/6-311G(D,P)"/>
+  </jobstep>
+  <jobstep command="FREQ" commandset="FREQ">
+   <cml:molecule>
+    <cml:symmetry pointGroup="Cs">
+     <cml:transform3 title="generator" id="X">
+      -1  0  0  0  0  1  0  0  0  0  1  0  0  0  0  1
+     </cml:transform3>
+    </cml:symmetry>
+    <cml:atomArray>
+     <cml:atom id="a1" elementType="O" x3="0.0" y3="-0.710997239405071E-01"
+       z3="-0.686202562226873E-01"/>
+     <cml:atom id="a2" elementType="H" x3="0.0" y3="0.202687886546544" z3="0.831642819202026"/>
+     <cml:atom id="a3" elementType="H" x3="0.0" y3="0.723594181904687" z3="-0.572500059987318"/>
+    </cml:atomArray>
+    <cml:bondArray>
+     <cml:bond atomRefs2="a1 a2"/>
+     <cml:bond atomRefs2="a1 a3"/>
+    </cml:bondArray>
+   </cml:molecule>
+   <vibrations>
+    <normalCoordinate wavenumber="4191.24" units="inverseCentimetre" IRintensity="0.0"
+      IRintensityunits="km/mol" symmetry="A`" real_zero_imag="R">
+      0.00000000 -0.04840289  0.03619449
+      0.00000000 -0.01758486 -0.01930904
+      0.00000000  0.80345365 -0.53594628
+    </normalCoordinate>
+    <normalCoordinate wavenumber="3044.73" units="inverseCentimetre" IRintensity="0.0"
+      IRintensityunits="km/mol" symmetry="A`" real_zero_imag="R">
+      0.00000000 -0.02450540 -0.07705398
+      0.00000000  0.17860128  0.64073188
+      0.00000000  0.03211378 -0.05716266
+    </normalCoordinate>
+    <normalCoordinate wavenumber="1534.55" units="inverseCentimetre" IRintensity="0.0"
+      IRintensityunits="km/mol" symmetry="A`" real_zero_imag="R">
+      0.00000000 -0.07138207 -0.02553955
+      0.00000000  0.36603495 -0.12861838
+      0.00000000  0.40168657  0.66239550
+    </normalCoordinate>
+    <normalCoordinate wavenumber="0.0" units="inverseCentimetre" IRintensity="0.0"
+      IRintensityunits="km/mol" symmetry="Err" real_zero_imag="Z">
+      0.00000000  0.03995913  0.09137967
+      0.30374308  0.49724710 -0.04769054
+     -0.08437139 -0.21598625 -0.31228452
+    </normalCoordinate>
+    <normalCoordinate wavenumber="0.0" units="inverseCentimetre" IRintensity="0.0"
+      IRintensityunits="km/mol" symmetry="Err" real_zero_imag="Z">
+      0.00000000  0.00206447  0.00106754
+      0.11684182  0.00764822 -0.00063059
+      0.98215301 -0.00106077 -0.00386144
+    </normalCoordinate>
+    <normalCoordinate wavenumber="0.0" units="inverseCentimetre" IRintensity="0.0"
+      IRintensityunits="km/mol" symmetry="Err" real_zero_imag="Z">
+      0.25000469  0.00000000  0.00000000
+      0.00000000  0.00000000  0.00000000
+      0.00000000  0.00000000  0.00000000
+    </normalCoordinate>
+    <normalCoordinate wavenumber="0.0" units="inverseCentimetre" IRintensity="0.0"
+      IRintensityunits="km/mol" symmetry="Err" real_zero_imag="Z">
+      0.00000000 -0.07452978 -0.03194254
+      0.60634442 -0.24435787  0.01970550
+     -0.13678169  0.02052349  0.11797070
+    </normalCoordinate>
+    <normalCoordinate wavenumber="0.0" units="inverseCentimetre" IRintensity="0.0"
+      IRintensityunits="km/mol" symmetry="Err" real_zero_imag="Z">
+      0.00000000  0.08268354  0.17977878
+      0.04424265 -0.15133399  0.25094809
+     -0.01195096  0.21366381  0.38635429
+    </normalCoordinate>
+    <normalCoordinate wavenumber="0.0" units="inverseCentimetre" IRintensity="0.0"
+      IRintensityunits="km/mol" symmetry="Err" real_zero_imag="Z">
+      0.00000000  0.20117490 -0.11362481
+      0.14491892  0.02022824 -0.05859539
+     -0.03908232  0.30245126  0.04610318
+    </normalCoordinate>
+   </vibrations>
+   <time start="10:49:45" end="10:49:46" cpu="0.18" system="0.01" real="0.2"/>
+   <storage units="megabyte" memory="244.14" sf="0.0" df="33.91" eaf="0.0"/>
+   <summary overall_method="HF/6-311G(D,P)//HF/6-311G(D,P)"/>
+  </jobstep>
+  <input>
+   <p>                    orient,mass</p>
+   <p>                    geometry=initial.xyz</p>
+   <include file="/home/lme/Theoretische_Chemie/Nomodeco/deuterium_calculations/test_g2/H2O.molpro/run/H2O_1.molpro/initial.xyz"/>
+   <p>                    mass, H2=2.014; ! Set custom mass for hydrogen</p>
+   <p>                    basis=6-311g(d,p)</p>
+   <p>                    {hf</p>
+   <p>                    start, atden}</p>
+   <p>                    optg;</p>
+   <p>                    {frequencies, symm=auto, print=0, analytical}</p>
+   <p>                    put, molden, H2O.molden</p>
+  </input>
+  <diagnostics warnings="0"/>
+ </job>
+</molpro>

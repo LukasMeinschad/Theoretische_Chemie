@@ -1,0 +1,1170 @@
+
+ Running default procedure: HF-SCF000
+
+ PROGRAM * ALASKA (Gradient of the energy)     Author: R. Lindh
+
+ Orbitals from record         2100.2
+
+ Number of closed-shell orbitals: 13 ( 13 )
+ Number of occupied orbitals:     13 ( 13 )
+
+ Number of electrons= 26     Singlet     Space symmetry=1      Wavefunction type: CLOSED          
+
+
+ SCF GRADIENT FOR STATE 1.1
+
+ Atom          dE/dx               dE/dy               dE/dz
+
+   1        -0.000000112         0.000000193         0.013577867
+   2         0.000000003        -0.000000005        -0.003322087
+   3         0.003040536        -0.005266360        -0.003418636
+   4        -0.006080763         0.000000050        -0.003418572
+   5         0.003040335         0.005266122        -0.003418572
+
+ Nuclear force contribution to virial =         0.031165589
+
+ PQS Optimization using delocalized internal coordinates
+
+ Options:  IOptC=   -1  IGen=     1  IType=    0  NMol=     1  NFix=     0  NDum=     0  NCons=    0  NCOMP=    0  NPCOMP=   0
+           NCnnct=   0  NDrive=   0  MaxDis=   0  IUpDAT=  -1  MaxCYC= 100  IHess=   -1  LThrsh= 165  IQmm=     0  IPRNT=    2  SCAN=     F  TSFlag=   F
+
+
+** GENERATION OF INTERNAL COORDINATES **
+
+ Generating primitive internal coordinates
+
+ OPTIMIZATION WILL USE DELOCALIZED INTERNAL COORDINATES
+ Reading points 1 to 1 from record 700.2,  wavefunction type=HF-SCF000       
+
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED INTERNAL COORDINATES **
+   Searching for a Minimum
+
+                       Coordinates (Angstroms)
+     ATOM              X           Y           Z
+    1  c           0.000000    0.000000   -0.143733
+    2  cl          0.000000    0.000000    1.633607
+    3  h           0.514659   -0.891415   -0.496624
+    4  h          -1.029318    0.000000   -0.496624
+    5  h           0.514659    0.891415   -0.496624
+   Point Group: C3V   Number of degrees of freedom:   3
+
+
+   Energy is   -499.130488798
+
+
+ Generating delocalized internal coordinates
+
+ Transformed gradient to internal coordinates by solving linear equations directly
+ calling defhes,  ndeg=   3  nprim=   10  ihess=-1
+ Setting up Default Primitive Hessian
+ calling defHPRIM
+
+ Optimization cycle:  0  IOptC=-1  IGen= 1  NPrim=  10  NDEG=   3
+ calling ConINT
+ calling optint
+
+  3 Hessian modes will be used to form the next step
+  Hessian Eigenvalues:
+     0.160000    0.279862    0.350296
+
+ Minimum Search - Taking Simple RFO Step
+
+ Solving AH equations explicitly.
+
+ eigenvalues of AH matrix
+     1-   4   -0.000506    0.160064    0.279902    0.350699
+
+ Taking root 1 of AH matrix
+ Value Taken    Lambda =  -0.00050612
+
+ D
+     1-   3    0.000997   -0.023731    0.033523
+ Step Taken.  Stepsize is  0.041085
+
+                             Maximum     Tolerance    Cnvgd?
+         Gradient           0.008829      0.000300      NO
+         Displacement       0.033523      0.000300      NO
+         Energy change   -499.130489      0.000001      NO
+
+
+ ** Cycle    1  Energy   -499.130488798   RMSG  0.00736   RMSD  0.02372 **
+ calling GetCART
+
+ Computing New Cartesian Coordinates by Inverse Iteration. Initial steplength=  0.041085, threshold=  5.0D-09, MAXIT=40,  MAXREP=10
+ it=   1, steplength=  0.2372D-01, stepmax=  0.3352D-01
+ it=   2, steplength=  0.9112D-04, stepmax=  0.1154D-03
+ it=   3, steplength=  0.3765D-08, stepmax=  0.4744D-08
+ Full backtransformation converged in  3 cycles. Step lengths:  0.041085 (internal),  0.030125 (cartesian)
+
+                       Coordinates (Angstroms)
+     ATOM              X           Y           Z
+    1  c           0.000000    0.000000   -0.152078
+    2  cl          0.000000    0.000000    1.631532
+    3  h           0.511195   -0.885415   -0.493152
+    4  h          -1.022389    0.000000   -0.493152
+    5  h           0.511195    0.885415   -0.493152
+
+ Displacement from previous Coordinates is:  0.030125
+
+ Geometry written to block  2 of record 700
+
+
+ Recomputing integrals since geometry changed
+
+
+ PROGRAM * SEWARD (Integral evaluation for generally contracted gaussian basis sets)     Author: Roland Lindh, 1990
+
+ Geometry written to block  2 of record 700
+
+
+ Point group  C1  
+
+
+
+ ATOMIC COORDINATES
+
+ NR  ATOM    CHARGE       X              Y              Z
+
+   1  C       6.00    0.000000000    0.000000000   -0.287385468
+   2  CL     17.00    0.000000000    0.000000000    3.083149367
+   3  H       1.00    0.966017787   -1.673191887   -0.931921300
+   4  H       1.00   -1.932035573    0.000000000   -0.931921300
+   5  H       1.00    0.966017787    1.673191887   -0.931921300
+
+ Bond lengths in Bohr (Angstrom)
+
+ 1-2  3.370534835  1-3  2.036710066  1-4  2.036710066  1-5  2.036710066
+     ( 1.783610223)     ( 1.077780552)     ( 1.077780552)     ( 1.077780552)
+
+ Bond angles
+
+  2-1-3  108.44893261   2-1-4  108.44893261   2-1-5  108.44893261   3-1-4  110.47387614
+
+  3-1-5  110.47387614   4-1-5  110.47387614
+
+ NUCLEAR CHARGE:                   26
+ NUMBER OF PRIMITIVE AOS:         105
+ NUMBER OF SYMMETRY AOS:          103
+ NUMBER OF CONTRACTIONS:           62   (   62A   )
+ NUMBER OF INNER CORE ORBITALS:     1   (    1A   )
+ NUMBER OF OUTER CORE ORBITALS:     5   (    5A   )
+ NUMBER OF VALENCE ORBITALS:       11   (   11A   )
+
+
+ NUCLEAR REPULSION ENERGY   51.44246085
+
+
+ Eigenvalues of metric
+
+         1 0.106E-01 0.217E-01 0.217E-01 0.266E-01 0.287E-01 0.287E-01 0.301E-01 0.458E-01
+
+
+ Contracted 2-electron integrals neglected if value below      1.0D-11
+ AO integral compression algorithm  1   Integral accuracy      1.0D-11
+
+     7.340 MB (compressed) written to integral file ( 35.6%)
+
+
+ NUMBER OF SORTED TWO-ELECTRON INTEGRALS:    1908081.     BUFFER LENGTH:  32768
+ NUMBER OF SEGMENTS:   1  SEGMENT LENGTH:    1908081      RECORD LENGTH: 524288
+
+ Memory used in sort:       2.47 MW
+
+ SORT1 READ     2520226. AND WROTE     1319829. INTEGRALS IN      4 RECORDS. CPU TIME:     0.02 SEC, REAL TIME:     0.03 SEC
+ SORT2 READ     1319829. AND WROTE     1908081. INTEGRALS IN     28 RECORDS. CPU TIME:     0.05 SEC, REAL TIME:     0.06 SEC
+
+ FILE SIZES:   FILE 1:    37.5 MBYTE,  FILE 4:    17.1 MBYTE,   TOTAL:     54.6 MBYTE
+
+ OPERATOR DM      FOR CENTER  0  COORDINATES:    0.000000    0.000000    0.000000
+
+ Program * Restricted Hartree-Fock
+
+ Molecular orbitals read from record     2100.2  Type=RHF/CANONICAL  
+
+ NELEC=   26   SYM=1   MS2= 0   THRE=1.0D-08   THRD=1.0D-06   THRG=1.0D-06  HFMA2=F  DIIS_START=2   DIIS_MAX=10   DIIS_INCORE=F
+
+ Level shifts:    0.00 (CLOSED)    0.00 (OPEN)    0.30 (GAP_MIN)
+
+ ITER           ETOT              DE          GRAD        DDIFF     DIIS  NEXP   TIME(IT)  TIME(TOT)  DIAG
+   1     -499.13067150    -499.13067150     0.00D+00     0.15D+00     0     0       0.02      0.02    start
+   2     -499.13075160      -0.00008010     0.35D-03     0.23D-03     1     0       0.01      0.03    diag
+   3     -499.13075838      -0.00000678     0.88D-04     0.86D-04     2     0       0.01      0.04    diag
+   4     -499.13075960      -0.00000122     0.38D-04     0.29D-04     3     0       0.01      0.05    diag
+   5     -499.13075975      -0.00000015     0.87D-05     0.16D-04     4     0       0.01      0.06    diag
+   6     -499.13075976      -0.00000001     0.24D-05     0.48D-05     5     0       0.01      0.07    diag
+   7     -499.13075976      -0.00000000     0.50D-06     0.12D-05     6     0       0.01      0.08    diag
+   8     -499.13075976      -0.00000000     0.61D-07     0.15D-06     7     0       0.01      0.09    fixocc
+   9     -499.13075976      -0.00000000     0.13D-07     0.21D-07     0     0       0.02      0.11    diag
+
+ Final occupancy:  13
+
+ !RHF STATE 1.1 Energy               -499.130759764621
+  RHF One-electron energy            -790.254115683109
+  RHF Two-electron energy             239.680895067486
+  RHF Kinetic energy                  499.161008174637
+  RHF Nuclear energy                   51.442460851002
+  RHF Virial quotient                  -0.999939401497
+
+ !RHF STATE 1.1 Dipole moment           0.00000000    -0.00000000    -0.90299638
+ Dipole moment /Debye                   0.00000000    -0.00000000    -2.29518787
+
+ Orbital energies:
+
+           1.1          2.1          3.1          4.1          5.1          6.1          7.1          8.1          9.1         10.1
+   -104.825307   -11.291801   -10.551654    -8.019905    -8.017006    -8.017006    -1.131871    -0.921053    -0.623908    -0.623908
+
+          11.1         12.1         13.1         14.1         15.1
+     -0.548108    -0.437316    -0.437316     0.142308     0.198842
+
+
+ HOMO     13.1    -0.437316 =     -11.9000eV
+ LUMO     14.1     0.142308 =       3.8724eV
+ LUMO-HOMO         0.579624 =      15.7724eV
+
+ Orbitals saved in record  2100.2
+
+
+ **********************************************************************************************************************************
+ DATASETS  * FILE   NREC   LENGTH (MB)   RECORD NAMES
+              1      19       34.14       500      610      700      900      950      970     1000      129      960     1100   
+                                          VAR    BASINP    GEOM    SYMINP    ZMAT    AOBASIS   BASIS     P2S    ABASIS      S 
+                                         1400     1410     1200     1210     1080     1600     1650     1300     1700   
+                                           T        V       H0       H01     AOSYM     SMH    MOLCAS    ERIS     OPER   
+
+              2       4        0.51       700     1000      520     2100   
+                                         GEOM     BASIS   MCVARS     RHF  
+
+ PROGRAMS   *        TOTAL    HF-SCF    HF-SCF       INT
+ CPU TIMES  *         1.38      0.34      0.15      0.29
+ REAL TIME  *         1.50 SEC
+ DISK USED  *        52.69 MB
+ **********************************************************************************************************************************
+
+ PROGRESS OF GEOMETRY OPTIMIZATION.    TOTAL CPU:         0.8 SEC
+   1  -499.13048880  -499.13075976    -0.00027097  0.00882924  0.01274981  0.00736110  0.03352289  0.04108475  0.02372029
+
+ **********************************************************************************************************************************
+
+ Current geometry (xyz format, in Angstrom)
+
+    5
+ HF-SCF000/6-311G(D,P)  ENERGY=-499.13075976
+ C          0.0000000000        0.0000000000       -0.1520778403
+ Cl         0.0000000000        0.0000000000        1.6315323830
+ H          0.5111945980       -0.8854150163       -0.4931515142
+ H         -1.0223891960        0.0000000000       -0.4931515142
+ H          0.5111945980        0.8854150163       -0.4931515142
+
+ **********************************************************************************************************************************
+
+ PROGRAM * ALASKA (Gradient of the energy)     Author: R. Lindh
+
+ Orbitals from record         2100.2
+
+ Number of closed-shell orbitals: 13 ( 13 )
+ Number of occupied orbitals:     13 ( 13 )
+
+ Number of electrons= 26     Singlet     Space symmetry=1      Wavefunction type: CLOSED          
+
+
+ SCF GRADIENT FOR STATE 1.1
+
+ Atom          dE/dx               dE/dy               dE/dz
+
+   1        -0.000000000         0.000000000         0.003107419
+   2        -0.000000000         0.000000000        -0.001987898
+   3        -0.000212070         0.000367316        -0.000373174
+   4         0.000424140        -0.000000000        -0.000373174
+   5        -0.000212070        -0.000367316        -0.000373174
+
+ Nuclear force contribution to virial =        -0.008437069
+
+ PQS Optimization using delocalized internal coordinates
+ Reading points 1 to 2 from record 700.2,  wavefunction type=HF-SCF000       
+
+** REGENERATION OF INTERNAL COORDINATES **
+
+ Generating primitive internal coordinates
+
+ Cartesian Hessian Update
+ Hessian Updated using BFGS Update
+
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED INTERNAL COORDINATES **
+   Searching for a Minimum
+
+                       Coordinates (Angstroms)
+     ATOM              X           Y           Z
+    1  c           0.000000    0.000000   -0.152078
+    2  cl          0.000000    0.000000    1.631532
+    3  h           0.511195   -0.885415   -0.493152
+    4  h          -1.022389    0.000000   -0.493152
+    5  h           0.511195    0.885415   -0.493152
+   Point Group: C3V   Number of degrees of freedom:   3
+
+
+   Energy is   -499.130759765
+
+
+ Generating delocalized internal coordinates
+
+ Transformed gradient to internal coordinates by solving linear equations directly
+ calling UTPrim, igen= 1
+ calling updhes1, igen= 1  change=F  nprim=   10  ihess= 1  iupdat= 4
+ Hessian Updated using BFGS Update
+
+ Optimization cycle:  1  IOptC=-1  IGen= 1  NPrim=  10  NDEG=   3
+ calling ConINT
+ calling optint
+
+  3 Hessian modes will be used to form the next step
+  Hessian Eigenvalues:
+     0.142256    0.253415    0.408536
+
+ Minimum Search - Taking Simple RFO Step
+
+ Solving AH equations explicitly.
+
+ eigenvalues of AH matrix
+     1-   4   -0.000028    0.142272    0.253424    0.408539
+
+ Taking root 1 of AH matrix
+ Value Taken    Lambda =  -0.00002767
+
+ D
+     1-   3   -0.002730    0.003749    0.011465
+ Step Taken.  Stepsize is  0.012368
+
+                             Maximum     Tolerance    Cnvgd?
+         Gradient           0.008829      0.000300      NO
+         Displacement       0.033523      0.000300      NO
+         Energy change     -0.000271      0.000001      NO
+
+
+ ** Cycle    2  Energy   -499.130759765   RMSG  0.00138   RMSD  0.00714 **
+ calling GetCART
+
+ Computing New Cartesian Coordinates by Inverse Iteration. Initial steplength=  0.012368, threshold=  5.0D-09, MAXIT=40,  MAXREP=10
+ it=   1, steplength=  0.7141D-02, stepmax=  0.1147D-01
+ it=   2, steplength=  0.1888D-04, stepmax=  0.2308D-04
+ it=   3, steplength=  0.7458D-10, stepmax=  0.1019D-09
+ Full backtransformation converged in  3 cycles. Step lengths:  0.012368 (internal),  0.008024 (cartesian)
+
+                       Coordinates (Angstroms)
+     ATOM              X           Y           Z
+    1  c           0.000000    0.000000   -0.155331
+    2  cl          0.000000    0.000000    1.632604
+    3  h           0.511821   -0.886500   -0.492425
+    4  h          -1.023643    0.000000   -0.492425
+    5  h           0.511821    0.886500   -0.492425
+
+ Displacement from previous Coordinates is:  0.008024
+
+ Geometry written to block  3 of record 700
+
+
+ Recomputing integrals since geometry changed
+
+
+ PROGRAM * SEWARD (Integral evaluation for generally contracted gaussian basis sets)     Author: Roland Lindh, 1990
+
+ Geometry written to block  3 of record 700
+
+
+ Point group  C1  
+
+
+
+ ATOMIC COORDINATES
+
+ NR  ATOM    CHARGE       X              Y              Z
+
+   1  C       6.00    0.000000000    0.000000000   -0.293532492
+   2  CL     17.00    0.000000000    0.000000000    3.085174948
+   3  H       1.00    0.967202071   -1.675243128   -0.930547485
+   4  H       1.00   -1.934404142    0.000000000   -0.930547485
+   5  H       1.00    0.967202071    1.675243128   -0.930547485
+
+ Bond lengths in Bohr (Angstrom)
+
+ 1-2  3.378707440  1-3  2.036592126  1-4  2.036592126  1-5  2.036592126
+     ( 1.787934980)     ( 1.077718141)     ( 1.077718141)     ( 1.077718141)
+
+ Bond angles
+
+  2-1-3  108.22713388   2-1-4  108.22713388   2-1-5  108.22713388   3-1-4  110.68613922
+
+  3-1-5  110.68613922   4-1-5  110.68613922
+
+ NUCLEAR CHARGE:                   26
+ NUMBER OF PRIMITIVE AOS:         105
+ NUMBER OF SYMMETRY AOS:          103
+ NUMBER OF CONTRACTIONS:           62   (   62A   )
+ NUMBER OF INNER CORE ORBITALS:     1   (    1A   )
+ NUMBER OF OUTER CORE ORBITALS:     5   (    5A   )
+ NUMBER OF VALENCE ORBITALS:       11   (   11A   )
+
+
+ NUCLEAR REPULSION ENERGY   51.36452851
+
+
+ Eigenvalues of metric
+
+         1 0.107E-01 0.217E-01 0.217E-01 0.266E-01 0.287E-01 0.287E-01 0.303E-01 0.459E-01
+
+
+ Contracted 2-electron integrals neglected if value below      1.0D-11
+ AO integral compression algorithm  1   Integral accuracy      1.0D-11
+
+     7.340 MB (compressed) written to integral file ( 35.6%)
+
+
+ NUMBER OF SORTED TWO-ELECTRON INTEGRALS:    1908081.     BUFFER LENGTH:  32768
+ NUMBER OF SEGMENTS:   1  SEGMENT LENGTH:    1908081      RECORD LENGTH: 524288
+
+ Memory used in sort:       2.47 MW
+
+ SORT1 READ     2520226. AND WROTE     1319447. INTEGRALS IN      4 RECORDS. CPU TIME:     0.02 SEC, REAL TIME:     0.02 SEC
+ SORT2 READ     1319447. AND WROTE     1908081. INTEGRALS IN     28 RECORDS. CPU TIME:     0.05 SEC, REAL TIME:     0.06 SEC
+
+ FILE SIZES:   FILE 1:    37.5 MBYTE,  FILE 4:    17.1 MBYTE,   TOTAL:     54.6 MBYTE
+
+ OPERATOR DM      FOR CENTER  0  COORDINATES:    0.000000    0.000000    0.000000
+
+ Program * Restricted Hartree-Fock
+
+ Molecular orbitals read from record     2100.2  Type=RHF/CANONICAL  
+
+ NELEC=   26   SYM=1   MS2= 0   THRE=1.0D-08   THRD=1.0D-07   THRG=1.0D-07  HFMA2=F  DIIS_START=2   DIIS_MAX=10   DIIS_INCORE=F
+
+ Level shifts:    0.00 (CLOSED)    0.00 (OPEN)    0.30 (GAP_MIN)
+
+ ITER           ETOT              DE          GRAD        DDIFF     DIIS  NEXP   TIME(IT)  TIME(TOT)  DIAG
+   1     -499.13076940    -499.13076940     0.00D+00     0.15D+00     0     0       0.01      0.01    start
+   2     -499.13077631      -0.00000691     0.90D-04     0.78D-04     1     0       0.01      0.02    diag
+   3     -499.13077699      -0.00000068     0.24D-04     0.27D-04     2     0       0.01      0.03    diag
+   4     -499.13077706      -0.00000008     0.87D-05     0.85D-05     3     0       0.01      0.04    diag
+   5     -499.13077707      -0.00000001     0.25D-05     0.37D-05     4     0       0.02      0.06    diag
+   6     -499.13077707      -0.00000000     0.57D-06     0.11D-05     5     0       0.01      0.07    diag
+   7     -499.13077707      -0.00000000     0.18D-06     0.36D-06     6     0       0.01      0.08    diag
+   8     -499.13077707      -0.00000000     0.25D-07     0.63D-07     7     0       0.01      0.09    fixocc
+   9     -499.13077707      -0.00000000     0.34D-08     0.55D-08     0     0       0.01      0.10    diag
+
+ Final occupancy:  13
+
+ !RHF STATE 1.1 Energy               -499.130777074840
+  RHF One-electron energy            -790.103261608396
+  RHF Two-electron energy             239.607956023382
+  RHF Kinetic energy                  499.155644751598
+  RHF Nuclear energy                   51.364528510174
+  RHF Virial quotient                  -0.999950180516
+
+ !RHF STATE 1.1 Dipole moment          -0.00000000    -0.00000000    -0.90983598
+ Dipole moment /Debye                  -0.00000000    -0.00000000    -2.31257240
+
+ Orbital energies:
+
+           1.1          2.1          3.1          4.1          5.1          6.1          7.1          8.1          9.1         10.1
+   -104.825059   -11.292384   -10.551345    -8.019585    -8.016700    -8.016700    -1.130775    -0.921277    -0.624269    -0.624269
+
+          11.1         12.1         13.1         14.1         15.1
+     -0.546723    -0.437294    -0.437294     0.142003     0.197837
+
+
+ HOMO     13.1    -0.437294 =     -11.8994eV
+ LUMO     14.1     0.142003 =       3.8641eV
+ LUMO-HOMO         0.579297 =      15.7635eV
+
+ Orbitals saved in record  2100.2
+
+
+ **********************************************************************************************************************************
+ DATASETS  * FILE   NREC   LENGTH (MB)   RECORD NAMES
+              1      19       34.14       500      610      700      900      950      970     1000      129      960     1100   
+                                          VAR    BASINP    GEOM    SYMINP    ZMAT    AOBASIS   BASIS     P2S    ABASIS      S 
+                                         1400     1410     1200     1210     1080     1600     1650     1300     1700   
+                                           T        V       H0       H01     AOSYM     SMH    MOLCAS    ERIS     OPER   
+
+              2       4        0.51       700     1000      520     2100   
+                                         GEOM     BASIS   MCVARS     RHF  
+
+ PROGRAMS   *        TOTAL    HF-SCF    HF-SCF       INT
+ CPU TIMES  *         2.20      0.33      0.15      0.29
+ REAL TIME  *         2.37 SEC
+ DISK USED  *        52.69 MB
+ **********************************************************************************************************************************
+
+ PROGRESS OF GEOMETRY OPTIMIZATION.    TOTAL CPU:         1.6 SEC
+   1  -499.13048880  -499.13075976    -0.00027097  0.00882924  0.01274981  0.00736110  0.03352289  0.04108475  0.02372029
+   2  -499.13075976  -499.13077707    -0.00001731  0.00195201  0.00239494  0.00138272  0.01146529  0.01236785  0.00714058
+
+ **********************************************************************************************************************************
+
+ Current geometry (xyz format, in Angstrom)
+
+    5
+ HF-SCF000/6-311G(D,P)  ENERGY=-499.13077707
+ C          0.0000000000        0.0000000000       -0.1553307055
+ Cl         0.0000000000        0.0000000000        1.6326042744
+ H          0.5118212943       -0.8865004861       -0.4924245230
+ H         -1.0236425886        0.0000000000       -0.4924245230
+ H          0.5118212943        0.8865004861       -0.4924245230
+
+ **********************************************************************************************************************************
+
+ PROGRAM * ALASKA (Gradient of the energy)     Author: R. Lindh
+
+ Orbitals from record         2100.2
+
+ Number of closed-shell orbitals: 13 ( 13 )
+ Number of occupied orbitals:     13 ( 13 )
+
+ Number of electrons= 26     Singlet     Space symmetry=1      Wavefunction type: CLOSED          
+
+
+ SCF GRADIENT FOR STATE 1.1
+
+ Atom          dE/dx               dE/dy               dE/dz
+
+   1        -0.000000000        -0.000000000         0.000675173
+   2        -0.000000000        -0.000000000        -0.000605329
+   3        -0.000107557         0.000186295        -0.000023281
+   4         0.000215115         0.000000000        -0.000023281
+   5        -0.000107557        -0.000186295        -0.000023281
+
+ Nuclear force contribution to virial =        -0.003249096
+
+ PQS Optimization using delocalized internal coordinates
+ Reading points 1 to 3 from record 700.2,  wavefunction type=HF-SCF000       
+
+** REGENERATION OF INTERNAL COORDINATES **
+
+ Generating primitive internal coordinates
+
+ Cartesian Hessian Update
+ Hessian Updated using BFGS Update
+
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED INTERNAL COORDINATES **
+   Searching for a Minimum
+
+                       Coordinates (Angstroms)
+     ATOM              X           Y           Z
+    1  c           0.000000    0.000000   -0.155331
+    2  cl          0.000000    0.000000    1.632604
+    3  h           0.511821   -0.886500   -0.492425
+    4  h          -1.023643    0.000000   -0.492425
+    5  h           0.511821    0.886500   -0.492425
+   Point Group: C3V   Number of degrees of freedom:   3
+
+
+   Energy is   -499.130777075
+
+
+ Generating delocalized internal coordinates
+
+ Transformed gradient to internal coordinates by solving linear equations directly
+ calling UTPrim, igen= 1
+ calling updhes1, igen= 1  change=F  nprim=   10  ihess= 1  iupdat= 4
+ Hessian Updated using BFGS Update
+
+ Optimization cycle:  2  IOptC=-1  IGen= 1  NPrim=  10  NDEG=   3
+ calling ConINT
+ calling optint
+
+  3 Hessian modes will be used to form the next step
+  Hessian Eigenvalues:
+     0.125048    0.226413    0.388708
+
+ Minimum Search - Taking Simple RFO Step
+
+ Solving AH equations explicitly.
+
+ eigenvalues of AH matrix
+     1-   4   -0.000003    0.125050    0.226414    0.388708
+
+ Taking root 1 of AH matrix
+ Value Taken    Lambda =  -0.00000273
+
+ D
+     1-   3   -0.000319    0.002131    0.003463
+ Step Taken.  Stepsize is  0.004079
+
+                             Maximum     Tolerance    Cnvgd?
+         Gradient           0.001952      0.000300      NO
+         Displacement       0.011465      0.000300      NO
+         Energy change     -0.000017      0.000001      NO
+
+
+ ** Cycle    3  Energy   -499.130777075   RMSG  0.00042   RMSD  0.00235 **
+ calling GetCART
+
+ Computing New Cartesian Coordinates by Inverse Iteration. Initial steplength=  0.004079, threshold=  5.0D-09, MAXIT=40,  MAXREP=10
+ it=   1, steplength=  0.2355D-02, stepmax=  0.3463D-02
+ it=   2, steplength=  0.1467D-05, stepmax=  0.1792D-05
+ it=   3, steplength=  0.5928D-12, stepmax=  0.8935D-12
+ Full backtransformation converged in  3 cycles. Step lengths:  0.004079 (internal),  0.002884 (cartesian)
+
+                       Coordinates (Angstroms)
+     ATOM              X           Y           Z
+    1  c           0.000000    0.000000   -0.156251
+    2  cl          0.000000    0.000000    1.633390
+    3  h           0.512089   -0.886964   -0.492380
+    4  h          -1.024178    0.000000   -0.492380
+    5  h           0.512089    0.886964   -0.492380
+
+ Displacement from previous Coordinates is:  0.002884
+
+ Geometry written to block  4 of record 700
+
+
+ Recomputing integrals since geometry changed
+
+
+ PROGRAM * SEWARD (Integral evaluation for generally contracted gaussian basis sets)     Author: Roland Lindh, 1990
+
+ Geometry written to block  4 of record 700
+
+
+ Point group  C1  
+
+
+
+ ATOMIC COORDINATES
+
+ NR  ATOM    CHARGE       X              Y              Z
+
+   1  C       6.00    0.000000000    0.000000000   -0.295271462
+   2  CL     17.00    0.000000000    0.000000000    3.086660244
+   3  H       1.00    0.967707624   -1.676118771   -0.930462927
+   4  H       1.00   -1.935415247    0.000000000   -0.930462927
+   5  H       1.00    0.967707624    1.676118771   -0.930462927
+
+ Bond lengths in Bohr (Angstrom)
+
+ 1-2  3.381931706  1-3  2.036983156  1-4  2.036983156  1-5  2.036983156
+     ( 1.789641188)     ( 1.077925065)     ( 1.077925065)     ( 1.077925065)
+
+ Bond angles
+
+  2-1-3  108.16952008   2-1-4  108.16952008   2-1-5  108.16952008   3-1-4  110.74096258
+
+  3-1-5  110.74096258   4-1-5  110.74096258
+
+ NUCLEAR CHARGE:                   26
+ NUMBER OF PRIMITIVE AOS:         105
+ NUMBER OF SYMMETRY AOS:          103
+ NUMBER OF CONTRACTIONS:           62   (   62A   )
+ NUMBER OF INNER CORE ORBITALS:     1   (    1A   )
+ NUMBER OF OUTER CORE ORBITALS:     5   (    5A   )
+ NUMBER OF VALENCE ORBITALS:       11   (   11A   )
+
+
+ NUCLEAR REPULSION ENERGY   51.32921833
+
+
+ Eigenvalues of metric
+
+         1 0.107E-01 0.217E-01 0.217E-01 0.266E-01 0.287E-01 0.287E-01 0.303E-01 0.460E-01
+
+
+ Contracted 2-electron integrals neglected if value below      1.0D-11
+ AO integral compression algorithm  1   Integral accuracy      1.0D-11
+
+     7.340 MB (compressed) written to integral file ( 35.5%)
+
+
+ NUMBER OF SORTED TWO-ELECTRON INTEGRALS:    1908081.     BUFFER LENGTH:  32768
+ NUMBER OF SEGMENTS:   1  SEGMENT LENGTH:    1908081      RECORD LENGTH: 524288
+
+ Memory used in sort:       2.47 MW
+
+ SORT1 READ     2520226. AND WROTE     1319265. INTEGRALS IN      4 RECORDS. CPU TIME:     0.01 SEC, REAL TIME:     0.03 SEC
+ SORT2 READ     1319265. AND WROTE     1908081. INTEGRALS IN     28 RECORDS. CPU TIME:     0.05 SEC, REAL TIME:     0.06 SEC
+
+ FILE SIZES:   FILE 1:    37.5 MBYTE,  FILE 4:    17.1 MBYTE,   TOTAL:     54.6 MBYTE
+
+ OPERATOR DM      FOR CENTER  0  COORDINATES:    0.000000    0.000000    0.000000
+
+ Program * Restricted Hartree-Fock
+
+ Molecular orbitals read from record     2100.2  Type=RHF/CANONICAL  
+
+ NELEC=   26   SYM=1   MS2= 0   THRE=1.0D-08   THRD=1.0D-07   THRG=1.0D-07  HFMA2=F  DIIS_START=2   DIIS_MAX=10   DIIS_INCORE=F
+
+ Level shifts:    0.00 (CLOSED)    0.00 (OPEN)    0.30 (GAP_MIN)
+
+ ITER           ETOT              DE          GRAD        DDIFF     DIIS  NEXP   TIME(IT)  TIME(TOT)  DIAG
+   1     -499.13077749    -499.13077749     0.00D+00     0.15D+00     0     0       0.01      0.01    start
+   2     -499.13077835      -0.00000085     0.32D-04     0.29D-04     1     0       0.01      0.02    diag
+   3     -499.13077843      -0.00000008     0.93D-05     0.94D-05     2     0       0.01      0.03    diag
+   4     -499.13077844      -0.00000001     0.38D-05     0.35D-05     3     0       0.02      0.05    diag
+   5     -499.13077844      -0.00000000     0.78D-06     0.12D-05     4     0       0.01      0.06    diag
+   6     -499.13077844      -0.00000000     0.20D-06     0.37D-06     5     0       0.01      0.07    diag
+   7     -499.13077844      -0.00000000     0.64D-07     0.14D-06     6     0       0.01      0.08    diag
+   8     -499.13077844       0.00000000     0.91D-08     0.22D-07     7     0       0.01      0.09    fixocc
+   9     -499.13077844      -0.00000000     0.15D-08     0.22D-08     0     0       0.01      0.10    diag
+
+ Final occupancy:  13
+
+ !RHF STATE 1.1 Energy               -499.130778440935
+  RHF One-electron energy            -790.034511335133
+  RHF Two-electron energy             239.574514560145
+  RHF Kinetic energy                  499.152297523577
+  RHF Nuclear energy                   51.329218334053
+  RHF Virial quotient                  -0.999956888744
+
+ !RHF STATE 1.1 Dipole moment          -0.00000000     0.00000000    -0.91224670
+ Dipole moment /Debye                  -0.00000000     0.00000000    -2.31869984
+
+ Orbital energies:
+
+           1.1          2.1          3.1          4.1          5.1          6.1          7.1          8.1          9.1         10.1
+   -104.825007   -11.292680   -10.551264    -8.019500    -8.016620    -8.016620    -1.130323    -0.921329    -0.624276    -0.624276
+
+          11.1         12.1         13.1         14.1         15.1
+     -0.546250    -0.437298    -0.437298     0.141857     0.197444
+
+
+ HOMO     13.1    -0.437298 =     -11.8995eV
+ LUMO     14.1     0.141857 =       3.8601eV
+ LUMO-HOMO         0.579155 =      15.7596eV
+
+ Orbitals saved in record  2100.2
+
+
+ **********************************************************************************************************************************
+ DATASETS  * FILE   NREC   LENGTH (MB)   RECORD NAMES
+              1      19       34.14       500      610      700      900      950      970     1000      129      960     1100   
+                                          VAR    BASINP    GEOM    SYMINP    ZMAT    AOBASIS   BASIS     P2S    ABASIS      S 
+                                         1400     1410     1200     1210     1080     1600     1650     1300     1700   
+                                           T        V       H0       H01     AOSYM     SMH    MOLCAS    ERIS     OPER   
+
+              2       4        0.51       700     1000      520     2100   
+                                         GEOM     BASIS   MCVARS     RHF  
+
+ PROGRAMS   *        TOTAL    HF-SCF    HF-SCF       INT
+ CPU TIMES  *         3.01      0.33      0.15      0.29
+ REAL TIME  *         3.25 SEC
+ DISK USED  *        52.69 MB
+ **********************************************************************************************************************************
+
+ PROGRESS OF GEOMETRY OPTIMIZATION.    TOTAL CPU:         2.5 SEC
+   1  -499.13048880  -499.13075976    -0.00027097  0.00882924  0.01274981  0.00736110  0.03352289  0.04108475  0.02372029
+   2  -499.13075976  -499.13077707    -0.00001731  0.00195201  0.00239494  0.00138272  0.01146529  0.01236785  0.00714058
+   3  -499.13077707  -499.13077844    -0.00000137  0.00058842  0.00073146  0.00042231  0.00346264  0.00407856  0.00235476
+
+ **********************************************************************************************************************************
+
+ Current geometry (xyz format, in Angstrom)
+
+    5
+ HF-SCF000/6-311G(D,P)  ENERGY=-499.13077844
+ C          0.0000000000        0.0000000000       -0.1562509287
+ Cl         0.0000000000        0.0000000000        1.6333902590
+ H          0.5120888212       -0.8869638563       -0.4923797768
+ H         -1.0241776423        0.0000000000       -0.4923797768
+ H          0.5120888212        0.8869638563       -0.4923797768
+
+ **********************************************************************************************************************************
+
+ PROGRAM * ALASKA (Gradient of the energy)     Author: R. Lindh
+
+ Orbitals from record         2100.2
+
+ Number of closed-shell orbitals: 13 ( 13 )
+ Number of occupied orbitals:     13 ( 13 )
+
+ Number of electrons= 26     Singlet     Space symmetry=1      Wavefunction type: CLOSED          
+
+
+ SCF GRADIENT FOR STATE 1.1
+
+ Atom          dE/dx               dE/dy               dE/dz
+
+   1        -0.000000000        -0.000000000         0.000005031
+   2        -0.000000000         0.000000000         0.000021362
+   3        -0.000004046         0.000007008        -0.000008798
+   4         0.000008092         0.000000000        -0.000008798
+   5        -0.000004046        -0.000007008        -0.000008798
+
+ Nuclear force contribution to virial =         0.000042025
+
+ PQS Optimization using delocalized internal coordinates
+ Reading points 1 to 4 from record 700.2,  wavefunction type=HF-SCF000       
+
+** REGENERATION OF INTERNAL COORDINATES **
+
+ Generating primitive internal coordinates
+
+ Cartesian Hessian Update
+ Hessian Updated using BFGS Update
+
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED INTERNAL COORDINATES **
+   Searching for a Minimum
+
+                       Coordinates (Angstroms)
+     ATOM              X           Y           Z
+    1  c           0.000000    0.000000   -0.156251
+    2  cl          0.000000    0.000000    1.633390
+    3  h           0.512089   -0.886964   -0.492380
+    4  h          -1.024178    0.000000   -0.492380
+    5  h           0.512089    0.886964   -0.492380
+   Point Group: C3V   Number of degrees of freedom:   3
+
+
+   Energy is   -499.130778441
+
+
+ Generating delocalized internal coordinates
+
+ Transformed gradient to internal coordinates by solving linear equations directly
+ calling UTPrim, igen= 1
+ calling updhes1, igen= 1  change=F  nprim=   10  ihess= 1  iupdat= 4
+ Hessian Updated using BFGS Update
+
+ Optimization cycle:  3  IOptC=-1  IGen= 1  NPrim=  10  NDEG=   3
+ calling ConINT
+ calling optint
+
+  3 Hessian modes will be used to form the next step
+  Hessian Eigenvalues:
+     0.119983    0.236786    0.386834
+
+ Minimum Search - Taking Simple RFO Step
+
+ Solving AH equations explicitly.
+
+ eigenvalues of AH matrix
+     1-   4    0.000000    0.119983    0.236786    0.386834
+
+ Taking root 1 of AH matrix
+ Value Taken    Lambda =  -0.00000001
+
+ D
+     1-   3   -0.000185   -0.000010    0.000060
+ Step Taken.  Stepsize is  0.000195
+
+                             Maximum     Tolerance    Cnvgd?
+         Gradient           0.000588      0.000300      NO
+         Displacement       0.003463      0.000300      NO
+         Energy change     -0.000001      0.000001      NO
+
+
+ ** Cycle    4  Energy   -499.130778441   RMSG  0.00002   RMSD  0.00011 **
+ calling GetCART
+
+ Computing New Cartesian Coordinates by Inverse Iteration. Initial steplength=  0.000195, threshold=  5.0D-09, MAXIT=40,  MAXREP=10
+ it=   1, steplength=  0.1123D-03, stepmax=  0.1847D-03
+ it=   2, steplength=  0.7860D-08, stepmax=  0.9385D-08
+ it=   3, steplength=  0.1710D-14, stepmax=  0.2665D-14
+ Full backtransformation converged in  3 cycles. Step lengths:  0.000195 (internal),  0.000224 (cartesian)
+
+                       Coordinates (Angstroms)
+     ATOM              X           Y           Z
+    1  c           0.000000    0.000000   -0.156290
+    2  cl          0.000000    0.000000    1.633317
+    3  h           0.512105   -0.886992   -0.492343
+    4  h          -1.024210    0.000000   -0.492343
+    5  h           0.512105    0.886992   -0.492343
+
+ Displacement from previous Coordinates is:  0.000224
+
+ Geometry written to block  5 of record 700
+
+
+ Recomputing integrals since geometry changed
+
+
+ PROGRAM * SEWARD (Integral evaluation for generally contracted gaussian basis sets)     Author: Roland Lindh, 1990
+
+ Geometry written to block  5 of record 700
+
+
+ Point group  C1  
+
+
+
+ ATOMIC COORDINATES
+
+ NR  ATOM    CHARGE       X              Y              Z
+
+   1  C       6.00    0.000000000    0.000000000   -0.295344628
+   2  CL     17.00    0.000000000    0.000000000    3.086522716
+   3  H       1.00    0.967738137   -1.676171621   -0.930392696
+   4  H       1.00   -1.935476273    0.000000000   -0.930392696
+   5  H       1.00    0.967738137    1.676171621   -0.930392696
+
+ Bond lengths in Bohr (Angstrom)
+
+ 1-2  3.381867345  1-3  2.036996429  1-4  2.036996429  1-5  2.036996429
+     ( 1.789607129)     ( 1.077932089)     ( 1.077932089)     ( 1.077932089)
+
+ Bond angles
+
+  2-1-3  108.16515251   2-1-4  108.16515251   2-1-5  108.16515251   3-1-4  110.74511333
+
+  3-1-5  110.74511333   4-1-5  110.74511333
+
+ NUCLEAR CHARGE:                   26
+ NUMBER OF PRIMITIVE AOS:         105
+ NUMBER OF SYMMETRY AOS:          103
+ NUMBER OF CONTRACTIONS:           62   (   62A   )
+ NUMBER OF INNER CORE ORBITALS:     1   (    1A   )
+ NUMBER OF OUTER CORE ORBITALS:     5   (    5A   )
+ NUMBER OF VALENCE ORBITALS:       11   (   11A   )
+
+
+ NUCLEAR REPULSION ENERGY   51.33011868
+
+
+ Eigenvalues of metric
+
+         1 0.107E-01 0.217E-01 0.217E-01 0.266E-01 0.287E-01 0.287E-01 0.303E-01 0.460E-01
+
+
+ Contracted 2-electron integrals neglected if value below      1.0D-11
+ AO integral compression algorithm  1   Integral accuracy      1.0D-11
+
+     7.340 MB (compressed) written to integral file ( 35.5%)
+
+
+ NUMBER OF SORTED TWO-ELECTRON INTEGRALS:    1908081.     BUFFER LENGTH:  32768
+ NUMBER OF SEGMENTS:   1  SEGMENT LENGTH:    1908081      RECORD LENGTH: 524288
+
+ Memory used in sort:       2.47 MW
+
+ SORT1 READ     2520226. AND WROTE     1319276. INTEGRALS IN      4 RECORDS. CPU TIME:     0.02 SEC, REAL TIME:     0.03 SEC
+ SORT2 READ     1319276. AND WROTE     1908081. INTEGRALS IN     28 RECORDS. CPU TIME:     0.05 SEC, REAL TIME:     0.06 SEC
+
+ FILE SIZES:   FILE 1:    37.5 MBYTE,  FILE 4:    17.1 MBYTE,   TOTAL:     54.6 MBYTE
+
+ OPERATOR DM      FOR CENTER  0  COORDINATES:    0.000000    0.000000    0.000000
+
+ Program * Restricted Hartree-Fock
+
+ Molecular orbitals read from record     2100.2  Type=RHF/CANONICAL  
+
+ NELEC=   26   SYM=1   MS2= 0   THRE=1.0D-08   THRD=1.0D-07   THRG=1.0D-07  HFMA2=F  DIIS_START=2   DIIS_MAX=10   DIIS_INCORE=F
+
+ Level shifts:    0.00 (CLOSED)    0.00 (OPEN)    0.30 (GAP_MIN)
+
+ ITER           ETOT              DE          GRAD        DDIFF     DIIS  NEXP   TIME(IT)  TIME(TOT)  DIAG
+   1     -499.13077844    -499.13077844     0.00D+00     0.15D+00     0     0       0.01      0.01    start
+   2     -499.13077844      -0.00000000     0.12D-05     0.74D-06     1     0       0.02      0.03    diag
+   3     -499.13077844      -0.00000000     0.23D-06     0.22D-06     2     0       0.00      0.03    diag
+   4     -499.13077844      -0.00000000     0.61D-07     0.54D-07     3     0       0.02      0.05    diag
+   5     -499.13077844      -0.00000000     0.18D-07     0.18D-07     0     0       0.01      0.06    diag
+
+ Final occupancy:  13
+
+ !RHF STATE 1.1 Energy               -499.130778443366
+  RHF One-electron energy            -790.036353371243
+  RHF Two-electron energy             239.575456248922
+  RHF Kinetic energy                  499.152355186251
+  RHF Nuclear energy                   51.330118678955
+  RHF Virial quotient                  -0.999956773232
+
+ !RHF STATE 1.1 Dipole moment          -0.00000000     0.00000000    -0.91222682
+ Dipole moment /Debye                  -0.00000000     0.00000000    -2.31864931
+
+ Orbital energies:
+
+           1.1          2.1          3.1          4.1          5.1          6.1          7.1          8.1          9.1         10.1
+   -104.825001   -11.292679   -10.551259    -8.019496    -8.016615    -8.016615    -1.130333    -0.921318    -0.624285    -0.624285
+
+          11.1         12.1         13.1         14.1         15.1
+     -0.546245    -0.437294    -0.437294     0.141860     0.197451
+
+
+ HOMO     13.1    -0.437294 =     -11.8994eV
+ LUMO     14.1     0.141860 =       3.8602eV
+ LUMO-HOMO         0.579155 =      15.7596eV
+
+ Orbitals saved in record  2100.2
+
+
+ **********************************************************************************************************************************
+ DATASETS  * FILE   NREC   LENGTH (MB)   RECORD NAMES
+              1      19       34.14       500      610      700      900      950      970     1000      129      960     1100   
+                                          VAR    BASINP    GEOM    SYMINP    ZMAT    AOBASIS   BASIS     P2S    ABASIS      S 
+                                         1400     1410     1200     1210     1080     1600     1650     1300     1700   
+                                           T        V       H0       H01     AOSYM     SMH    MOLCAS    ERIS     OPER   
+
+              2       4        0.51       700     1000      520     2100   
+                                         GEOM     BASIS   MCVARS     RHF  
+
+ PROGRAMS   *        TOTAL    HF-SCF    HF-SCF       INT
+ CPU TIMES  *         3.79      0.29      0.15      0.29
+ REAL TIME  *         4.07 SEC
+ DISK USED  *        52.69 MB
+ **********************************************************************************************************************************
+
+ PROGRESS OF GEOMETRY OPTIMIZATION.    TOTAL CPU:         3.2 SEC
+   1  -499.13048880  -499.13075976    -0.00027097  0.00882924  0.01274981  0.00736110  0.03352289  0.04108475  0.02372029
+   2  -499.13075976  -499.13077707    -0.00001731  0.00195201  0.00239494  0.00138272  0.01146529  0.01236785  0.00714058
+   3  -499.13077707  -499.13077844    -0.00000137  0.00058842  0.00073146  0.00042231  0.00346264  0.00407856  0.00235476
+   4  -499.13077844  -499.13077844    -0.00000000  0.00003601  0.00003611  0.00002085  0.00018467  0.00019455  0.00011232
+
+ **********************************************************************************************************************************
+
+ Current geometry (xyz format, in Angstrom)
+
+    5
+ HF-SCF000/6-311G(D,P)  ENERGY=-499.13077844
+ C          0.0000000000        0.0000000000       -0.1562896466
+ Cl         0.0000000000        0.0000000000        1.6333174825
+ H          0.5121049680       -0.8869918234       -0.4923426120
+ H         -1.0242099361        0.0000000000       -0.4923426120
+ H          0.5121049680        0.8869918234       -0.4923426120
+
+ **********************************************************************************************************************************
+
+ Recomputing wavefunction for reoriented structure
+
+
+ Recomputing integrals since geometry changed
+
+
+ PROGRAM * SEWARD (Integral evaluation for generally contracted gaussian basis sets)     Author: Roland Lindh, 1990
+
+ Geometry written to block  1 of record 700
+
+ Orientation using atomic masses  
+ Molecule type: Symmetric top,     Order of principal axis = 3
+ Rotational constants:      10.7756847     10.7756847     79.7367442 GHz  (calculated with average atomic masses)
+
+ Point group  C1  
+
+
+
+ ATOMIC COORDINATES
+
+ NR  ATOM    CHARGE       X              Y              Z
+
+   1  C       6.00    0.000000000    0.000000000   -2.169109680
+   2  CL     17.00    0.000000000    0.000000000    1.212757665
+   3  H       1.00    0.967738137   -1.676171621   -2.804157748
+   4  H       1.00   -1.935476273    0.000000000   -2.804157748
+   5  H       1.00    0.967738137    1.676171621   -2.804157748
+
+ Bond lengths in Bohr (Angstrom)
+
+ 1-2  3.381867345  1-3  2.036996429  1-4  2.036996429  1-5  2.036996429
+     ( 1.789607129)     ( 1.077932089)     ( 1.077932089)     ( 1.077932089)
+
+ Bond angles
+
+  2-1-3  108.16515251   2-1-4  108.16515251   2-1-5  108.16515251   3-1-4  110.74511333
+
+  3-1-5  110.74511333   4-1-5  110.74511333
+
+ NUCLEAR CHARGE:                   26
+ NUMBER OF PRIMITIVE AOS:         105
+ NUMBER OF SYMMETRY AOS:          103
+ NUMBER OF CONTRACTIONS:           62   (   62A   )
+ NUMBER OF INNER CORE ORBITALS:     1   (    1A   )
+ NUMBER OF OUTER CORE ORBITALS:     5   (    5A   )
+ NUMBER OF VALENCE ORBITALS:       11   (   11A   )
+
+
+ NUCLEAR REPULSION ENERGY   51.33011868
+
+
+ Eigenvalues of metric
+
+         1 0.107E-01 0.217E-01 0.217E-01 0.266E-01 0.287E-01 0.287E-01 0.303E-01 0.460E-01
+
+
+ Contracted 2-electron integrals neglected if value below      1.0D-11
+ AO integral compression algorithm  1   Integral accuracy      1.0D-11
+
+     7.340 MB (compressed) written to integral file ( 35.5%)
+
+
+ NUMBER OF SORTED TWO-ELECTRON INTEGRALS:    1908081.     BUFFER LENGTH:  32768
+ NUMBER OF SEGMENTS:   1  SEGMENT LENGTH:    1908081      RECORD LENGTH: 524288
+
+ Memory used in sort:       2.47 MW
+
+ SORT1 READ     2520226. AND WROTE     1319276. INTEGRALS IN      4 RECORDS. CPU TIME:     0.02 SEC, REAL TIME:     0.03 SEC
+ SORT2 READ     1319276. AND WROTE     1908081. INTEGRALS IN     28 RECORDS. CPU TIME:     0.05 SEC, REAL TIME:     0.05 SEC
+
+ FILE SIZES:   FILE 1:    37.5 MBYTE,  FILE 4:    16.8 MBYTE,   TOTAL:     54.4 MBYTE
+
+ OPERATOR DM      FOR CENTER  0  COORDINATES:    0.000000    0.000000    0.000000
+
+ Program * Restricted Hartree-Fock
+
+ Molecular orbitals read from record     2100.2  Type=RHF/CANONICAL  
+
+ NELEC=   26   SYM=1   MS2= 0   THRE=1.0D-08   THRD=1.0D-07   THRG=1.0D-07  HFMA2=F  DIIS_START=2   DIIS_MAX=10   DIIS_INCORE=F
+
+ Level shifts:    0.00 (CLOSED)    0.00 (OPEN)    0.30 (GAP_MIN)
+
+ ITER           ETOT              DE          GRAD        DDIFF     DIIS  NEXP   TIME(IT)  TIME(TOT)  DIAG
+   1     -499.13077844    -499.13077844     0.00D+00     0.15D+00     0     0       0.01      0.01    start
+   2     -499.13077844       0.00000000     0.87D-08     0.83D-08     1     0       0.01      0.02    diag
+
+ Final occupancy:  13
+
+ !RHF STATE 1.1 Energy               -499.130778443365
+  RHF One-electron energy            -790.036354014386
+  RHF Two-electron energy             239.575456892066
+  RHF Kinetic energy                  499.152355321347
+  RHF Nuclear energy                   51.330118678955
+  RHF Virial quotient                  -0.999956772962
+
+ !RHF STATE 1.1 Dipole moment          -0.00000000     0.00000000    -0.91222654
+ Dipole moment /Debye                  -0.00000000     0.00000000    -2.31864859
+
+ Orbital energies:
+
+           1.1          2.1          3.1          4.1          5.1          6.1          7.1          8.1          9.1         10.1
+   -104.825001   -11.292680   -10.551259    -8.019496    -8.016615    -8.016615    -1.130333    -0.921318    -0.624286    -0.624286
+
+          11.1         12.1         13.1         14.1         15.1
+     -0.546245    -0.437294    -0.437294     0.141860     0.197451
+
+
+ HOMO     13.1    -0.437294 =     -11.8994eV
+ LUMO     14.1     0.141860 =       3.8602eV
+ LUMO-HOMO         0.579154 =      15.7596eV
+
+ Orbitals saved in record  2100.2
+
+
+ **********************************************************************************************************************************
+ DATASETS  * FILE   NREC   LENGTH (MB)   RECORD NAMES
+              1      19       34.14       500      610      700      900      950      970     1000      129      960     1100   
+                                          VAR    BASINP    GEOM    SYMINP    ZMAT    AOBASIS   BASIS     P2S    ABASIS      S 
+                                         1400     1410     1200     1210     1080     1600     1650     1300     1700   
+                                           T        V       H0       H01     AOSYM     SMH    MOLCAS    ERIS     OPER   
+
+              2       4        0.51       700     1000      520     2100   
+                                         GEOM     BASIS   MCVARS     RHF  
+
+ PROGRAMS   *        TOTAL    HF-SCF    HF-SCF       INT
+ CPU TIMES  *         4.04      0.25      0.15      0.29
+ REAL TIME  *         4.37 SEC
+ DISK USED  *        52.69 MB
+ **********************************************************************************************************************************
+ Cartesian Coordinates are in [bohr]
+ Creating new Variables:
+ CX1               0.00000000
+ CY1               0.00000000
+ CZ1              -2.16910968
+ CLX2              0.00000000
+ CLY2              0.00000000
+ CLZ2              1.21275766
+ HX3               0.96773814
+ HY3              -1.67617162
+ HZ3              -2.80415775
+ HX4              -1.93547627
+ HY4               0.00000000
+ HZ4              -2.80415775
+ HX5               0.96773814
+ HY5               1.67617162
+ HZ5              -2.80415775

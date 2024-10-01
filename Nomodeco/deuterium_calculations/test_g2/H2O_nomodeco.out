@@ -1,0 +1,147 @@
+ .__   __.   ______   .___  ___.   ______    _______   _______   ______   ______      .______   ____    ____ 
+ |  \ |  |  /  __  \  |   \/   |  /  __  \  |       \ |   ____| /      | /  __  \     |   _  \  \   \  /   / 
+ |   \|  | |  |  |  | |  \  /  | |  |  |  | |  .--.  ||  |__   |  ,----'|  |  |  |    |  |_)  |  \   \/   /  
+ |  . `  | |  |  |  | |  |\/|  | |  |  |  | |  |  |  ||   __|  |  |     |  |  |  |    |   ___/    \_    _/   
+ |  |\   | |  `--'  | |  |  |  | |  `--'  | |  '--'  ||  |____ |  `----.|  `--'  |  __|  |          |  |     
+ |__| \__|  \______/  |__|  |__|  \______/  |_______/ |_______| \______| \______/  (__) _|          |__|     
+                                                                                                             
+
+
+**************************************************************************************************************
+                                  Kemal Önen, Dennis F. Dinu, Klaus R. Liedl                                  
+                                      Liedl Lab, University of Innsbruck                                      
+**************************************************************************************************************
+
+Planar system detected. Therefore out-of-plane angles are used in your analysis. Note that out-of-plane angles tend to perform worse
+than the other internal coordinates in terms of computational cost and in the decomposition. However they can be
+useful for planar systems.
+
+The detected point group is C2v
+The following equivalent atoms were found: [['D2', 'D3'], ['O1']] 
+
+The following primitive internals (bonds, (in-plane) angles, linear valence angles, out-of-plane angles and torsions) were generated:
+bonds: [('O1', 'D2'), ('O1', 'D3')]
+in-plane angles: [('D2', 'O1', 'D3')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: []
+
+3 internal coordinates are at least needed for the decomposition scheme.
+
+
+-------------------------------- Initialization of an internal coordinate set --------------------------------
+
+The following 3 Internal Coordinates are used in your analysis:
+bonds: [('O1', 'D2'), ('O1', 'D3')]
+in-plane angles: [('D2', 'O1', 'D3')]
+linear valence-angles: []
+out-of-plane angles: []
+dihedrals: []
+
+
+-------------------------- Results of the Decomposition Scheme ---------------------------
+
+1.) Intrinsic Frequencies for all normal-coordinate frequencies and
+    vibrational distribution matrix (exact approximation) at the following
+    harmonic frequencies (all frequency values in cm-1):
+
+Internal Coordinate Intrinsic Frequencies  1281  2987  3106
+           (O1, D2)               3048.61 -0.00  0.50  0.50
+           (O1, D3)               3048.61 -0.00  0.50  0.50
+       (D2, O1, D3)               1273.24  1.00 -0.00 -0.00
+
+Check if matrix is normalized: 1.0
+
+2.) Intrinsic Frequencies for all normal-coordinate frequencies and
+    diagonal elements of the PED matrix at the following
+    harmonic frequencies (all frequency values in cm-1):
+
+Internal Coordinate Intrinsic Frequencies 1281 2987 3106
+           (O1, D2)               3048.61 0.00 0.51 0.50
+           (O1, D3)               3048.61 0.00 0.51 0.50
+       (D2, O1, D3)               1273.24 1.01 0.00 0.00
+
+3.) Intrinsic Frequencies for all normal-coordinate frequencies and
+    contribution table calculated from the diagonal elements of the PED at the following
+    harmonic frequencies (all frequency values in cm-1):
+
+Internal Coordinate Intrinsic Frequencies  1281  2987  3106
+           (O1, D2)               3048.61  0.46 49.96 50.00
+           (O1, D3)               3048.61  0.46 49.96 50.00
+       (D2, O1, D3)               1273.24 99.09  0.08  0.00
+
+----- Extended Results: Exact PED, KED and TED analysis per mode -----
+
+Normal mode at the following harmonic frequency: 1281 cm-1
+
+Potential energy distribution matrix (normalization check: 1.0)
+
+Internal Coordinate (O1, D2) (O1, D3) (D2, O1, D3)
+           (O1, D2)     0.00    -0.00        -0.01
+           (O1, D3)    -0.00     0.00        -0.01
+       (D2, O1, D3)    -0.01    -0.01         1.01
+
+Kinetic energy distribution matrix (normalization check: 1.0)
+
+Internal Coordinate (O1, D2) (O1, D3) (D2, O1, D3)
+           (O1, D2)     0.00    -0.00         0.00
+           (O1, D3)    -0.00     0.00         0.00
+       (D2, O1, D3)     0.00     0.00         1.17
+
+Total energy distribution matrix (normalization check: 1.0)
+
+Internal Coordinate (O1, D2) (O1, D3) (D2, O1, D3)
+           (O1, D2)     0.00    -0.00        -0.00
+           (O1, D3)    -0.00     0.00        -0.00
+       (D2, O1, D3)    -0.00    -0.00         1.09
+
+----- Extended Results: Exact PED, KED and TED analysis per mode -----
+
+Normal mode at the following harmonic frequency: 2987 cm-1
+
+Potential energy distribution matrix (normalization check: 1.0)
+
+Internal Coordinate (O1, D2) (O1, D3) (D2, O1, D3)
+           (O1, D2)     0.51    -0.00        -0.00
+           (O1, D3)    -0.00     0.51        -0.00
+       (D2, O1, D3)    -0.00    -0.00         0.00
+
+Kinetic energy distribution matrix (normalization check: 1.0)
+
+Internal Coordinate (O1, D2) (O1, D3) (D2, O1, D3)
+           (O1, D2)     0.57    -0.02         0.00
+           (O1, D3)    -0.02     0.57         0.00
+       (D2, O1, D3)     0.00     0.00         0.01
+
+Total energy distribution matrix (normalization check: 1.0)
+
+Internal Coordinate (O1, D2) (O1, D3) (D2, O1, D3)
+           (O1, D2)     0.54    -0.01        -0.00
+           (O1, D3)    -0.01     0.54        -0.00
+       (D2, O1, D3)    -0.00    -0.00         0.00
+
+----- Extended Results: Exact PED, KED and TED analysis per mode -----
+
+Normal mode at the following harmonic frequency: 3106 cm-1
+
+Potential energy distribution matrix (normalization check: 1.0)
+
+Internal Coordinate (O1, D2) (O1, D3) (D2, O1, D3)
+           (O1, D2)     0.50     0.00        -0.00
+           (O1, D3)     0.00     0.50         0.00
+       (D2, O1, D3)    -0.00     0.00         0.00
+
+Kinetic energy distribution matrix (normalization check: 1.0)
+
+Internal Coordinate (O1, D2) (O1, D3) (D2, O1, D3)
+           (O1, D2)     0.61     0.02         0.00
+           (O1, D3)     0.02     0.61        -0.00
+       (D2, O1, D3)     0.00    -0.00         0.00
+
+Total energy distribution matrix (normalization check: 1.0)
+
+Internal Coordinate (O1, D2) (O1, D3) (D2, O1, D3)
+           (O1, D2)     0.55     0.01        -0.00
+           (O1, D3)     0.01     0.55         0.00
+       (D2, O1, D3)    -0.00     0.00         0.00
+
