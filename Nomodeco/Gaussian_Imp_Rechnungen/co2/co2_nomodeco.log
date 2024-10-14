@@ -8,7 +8,7 @@
 
 
 **************************************************************************************************************
-                                  Kemal Önen, Dennis F. Dinu, Klaus R. Liedl                                  
+                         Kemal Önen, Lukas Meinschad, Dennis F. Dinu, Klaus R. Liedl                          
                                       Liedl Lab, University of Innsbruck                                      
 **************************************************************************************************************
 
@@ -16,7 +16,7 @@
 -------------------------------- Initialization of an internal coordinate set --------------------------------
 
 The following 4 Internal Coordinates are used in your analysis:
-bonds: [('C', 'O2'), ('C', 'O1')]
+bonds: [('C', 'O1'), ('C', 'O2')]
 in-plane angles: []
 linear valence-angles: [('O1', 'C', 'O2'), ('O1', 'C', 'O2')]
 out-of-plane angles: []
@@ -30,10 +30,10 @@ dihedrals: []
     harmonic frequencies (all frequency values in cm-1):
 
 Internal Coordinate Intrinsic Frequencies 658.91 658.91 1427.2 2462.11
-            (C, O2)               2012.32   0.00   0.00   0.50    0.50
             (C, O1)               2012.32   0.00   0.00   0.50    0.50
-        (O1, C, O2)                658.91   0.29   0.71  -0.00   -0.00
-        (O1, C, O2)                658.91   0.71   0.29   0.00    0.00
+            (C, O2)               2012.32   0.00   0.00   0.50    0.50
+        (O1, C, O2)                658.91   0.99   0.01   0.00   -0.00
+        (O1, C, O2)                658.91   0.01   0.99   0.00    0.00
 
 Check if matrix is normalized: 1.0
 
@@ -42,19 +42,19 @@ Check if matrix is normalized: 1.0
     harmonic frequencies (all frequency values in cm-1):
 
 Internal Coordinate Intrinsic Frequencies 658.91 658.91 1427.2 2462.11
-            (C, O2)               2012.32   0.00   0.00   0.45    0.56
             (C, O1)               2012.32   0.00   0.00   0.45    0.56
-        (O1, C, O2)                658.91   0.29   0.71   0.00    0.00
-        (O1, C, O2)                658.91   0.71   0.29   0.00    0.00
+            (C, O2)               2012.32   0.00   0.00   0.45    0.56
+        (O1, C, O2)                658.91   0.99   0.01   0.00    0.00
+        (O1, C, O2)                658.91   0.01   0.99   0.00    0.00
 
 3.) Intrinsic Frequencies for all normal-coordinate frequencies and
     contribution table calculated from the diagonal elements of the PED at the following
     harmonic frequencies (all frequency values in cm-1):
 
 Internal Coordinate Intrinsic Frequencies 658.91 658.91 1427.2 2462.11
-            (C, O2)               2012.32   0.00   0.00  50.00   50.00
             (C, O1)               2012.32   0.00   0.00  50.00   50.00
-        (O1, C, O2)                658.91  29.11  70.89   0.00    0.00
-        (O1, C, O2)                658.91  70.89  29.11   0.00    0.00
+            (C, O2)               2012.32   0.00   0.00  50.00   50.00
+        (O1, C, O2)                658.91  98.80   1.20   0.00    0.00
+        (O1, C, O2)                658.91   1.20  98.80   0.00    0.00
 
-The following diagonalization parameter, penalty for asymmetric instrinsic frequencies and penalty for unphysical contributions has been determined: 60.44, 0, 0 
+The following diagonalization parameter, penalty for asymmetric instrinsic frequencies and penalty for unphysical contributions has been determined: 74.4, 0, 0 
