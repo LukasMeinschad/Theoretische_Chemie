@@ -1,0 +1,23 @@
+***,water dimer
+ memory, 600, m
+ !gthresh,optgrad=1.d-7,twoint=1.d-14,prefac=1.d-16
+ orient,mass
+ geometry={
+ F,                 -1.91775013,   -0.68023896,    1.17760406
+ H,                 -2.67341540,   -0.37418916,    0.98184786
+ O,                 -4.44328591,    0.50107374,    0.42201043
+ H,                 -4.59637323,    1.34259482,   -0.11624499
+ H,                 -4.75972589,   -0.28613702,   -0.02717211
+}
+
+
+mass,iso
+ basis=6-311g(d,p)
+ 
+ {hf
+ start,atden}
+ 
+ 
+ optg
+ {frequencies, symm=auto, print=0,analytical}
+ put,molden, water_hf.molden
