@@ -16,7 +16,7 @@
 -------------------------------- Initialization of an internal coordinate set --------------------------------
 
 The following 3 Internal Coordinates are used in your analysis:
-bonds: [('O', 'H2'), ('O', 'H1')]
+bonds: [('O', 'H1'), ('O', 'H2')]
 in-plane angles: [('H1', 'O', 'H2')]
 linear valence-angles: []
 out-of-plane angles: []
@@ -30,8 +30,8 @@ dihedrals: []
     harmonic frequencies (all frequency values in cm-1):
 
 Internal Coordinate Intrinsic Frequencies 1750.79 4141.75 4237.0
-            (O, H2)               4189.88   -0.00    0.50   0.50
             (O, H1)               4189.88   -0.00    0.50   0.50
+            (O, H2)               4189.88   -0.00    0.50   0.50
         (H1, O, H2)               1749.70    1.00   -0.00   0.00
 
 Check if matrix is normalized: 1.0
@@ -41,8 +41,8 @@ Check if matrix is normalized: 1.0
     harmonic frequencies (all frequency values in cm-1):
 
 Internal Coordinate Intrinsic Frequencies 1750.79 4141.75 4237.0
-            (O, H2)               4189.88    0.01    0.50   0.50
             (O, H1)               4189.88    0.01    0.50   0.50
+            (O, H2)               4189.88    0.01    0.50   0.50
         (H1, O, H2)               1749.70    1.02    0.00   0.00
 
 3.) Intrinsic Frequencies for all normal-coordinate frequencies and
@@ -50,8 +50,8 @@ Internal Coordinate Intrinsic Frequencies 1750.79 4141.75 4237.0
     harmonic frequencies (all frequency values in cm-1):
 
 Internal Coordinate Intrinsic Frequencies 1750.79 4141.75 4237.0
-            (O, H2)               4189.88    0.74   50.00  50.00
             (O, H1)               4189.88    0.74   50.00  50.00
+            (O, H2)               4189.88    0.74   50.00  50.00
         (H1, O, H2)               1749.70   98.52    0.00   0.00
 
 The following diagonalization parameter, penalty for asymmetric instrinsic frequencies and penalty for unphysical contributions has been determined: 66.17, 0, 0.0 
