@@ -1,0 +1,27 @@
+***, Methanol_Methanol
+memory, 200, m ! Memory Requirements
+!gthresh, optgrad=1.d-7,twoint=1.d-14,prefac=1.d-16 ! Guntram Rezept um numerischen Schmutz zu entfernen
+orient,mass
+geometry = {
+  O,    -0.00001000,   0.00000000,   0.00000000
+  H,     0.94422200,  -0.02379700,  -0.20413500
+  C,    -0.51594000,  -1.28800600,  -0.26533900
+  H,    -1.57382000,  -1.27298300,  -0.01664300
+  H,    -0.42048500,  -1.56938900,  -1.31679000
+  H,    -0.03871100,  -2.06299100,   0.33991200
+  O,     2.84654400,  -0.09884000,  -0.29270200
+  H,     3.31533400,   0.51554500,  -0.86236800 
+  C,     3.35537800,   0.05817900,   1.02901600
+  H,     2.80180900,  -0.63001700,   1.65914700
+  H,     4.41437400,  -0.19226000,   1.08573900
+  H,     3.20293800,   1.06887300,   1.4069080
+}
+mass, iso
+basis=6-311g(d,p)
+
+{hf
+start,atden}
+
+optg
+{frequencies, symm=auto, print=0,analytical}
+put,molden,methanol_methanol.molden
