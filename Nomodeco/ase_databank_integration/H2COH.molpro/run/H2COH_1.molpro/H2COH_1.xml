@@ -1,0 +1,625 @@
+<?xml version="1.0"?>
+<molpro xmlns="http://www.molpro.net/schema/molpro-output" xmlns:xsd="http://www.w3.org/1999/XMLSchema"
+  xmlns:cml="http://www.xml-cml.org/schema" xmlns:stm="http://www.xml-cml.org/schema" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+ <job>
+  <stm:metadataList>
+   <stm:metadata name="dc:date" content="2024-11-22T11:22:21+01:00"/>
+   <stm:metadata name="dc:creator" content="lme"/>
+   <stm:metadata name="cmlm:insilico" content="Molpro"/>
+  </stm:metadataList>
+  <platform pid="1284811">
+   <version major="2024" minor="2" SHA="5a9813c25d9a7b7fe243115095799e27f07d421d" integer_bits="64">
+    2024.2
+    <date year="2024" month="11" day="22" hour="11" minute="22" second="21">
+     2024-11-22T11:22:21
+    </date>
+   </version>
+   <licence id="liedlgroup"/>
+   <parallel processes="1" nodes="1" all_processes="1" openmp="6"/>
+   <dimensions natom="400" nvalence="500" nvalence_pno="1000" nbasis="12000" nstate="100" nsymm="16" nrec="1024" nprim="2" ncol="100"/>
+  </platform>
+  <jobstep command="HF-SCF" commandset="SCFPRO">
+   <cml:molecule>
+    <cml:symmetry pointGroup="C1">
+    </cml:symmetry>
+    <cml:atomArray>
+     <cml:atom id="a1" elementType="C" x3="0.180092925064616E-01" y3="-0.515976344614266E-01" z3="0.731254173720681"/>
+     <cml:atom id="a2" elementType="O" x3="-0.657795041241761E-01" y3="0.182682068875295E-01" z3="-0.637395050212461"/>
+     <cml:atom id="a3" elementType="H" x3="0.822532498842337" y3="-0.109442422992805" z3="-1.00670518007785"/>
+     <cml:atom id="a4" elementType="H" x3="0.935879025225724" y3="0.280558954860403" z3="1.20643978374161"/>
+     <cml:atom id="a5" elementType="H" x3="-0.928876894312611" y3="0.153318055992104" z3="1.20926634188295"/>
+    </cml:atomArray>
+    <cml:bondArray>
+     <cml:bond atomRefs2="a1 a2"/>
+     <cml:bond atomRefs2="a2 a3"/>
+     <cml:bond atomRefs2="a1 a4"/>
+     <cml:bond atomRefs2="a1 a5"/>
+    </cml:bondArray>
+   </cml:molecule>
+   <property name="Energy" method="RHF" principal="true" stateSymmetry="1" stateNumber="1" stateMultiplicity="2" value="-114.443595921953"/>
+   <property name="One-electron energy" method="RHF" stateMultiplicity="2" value="-225.891943748725"/>
+   <property name="Two-electron energy" method="RHF" stateMultiplicity="2" value="76.2861546823283"/>
+   <property name="Kinetic energy" method="RHF" stateMultiplicity="2" value="114.381261659659"/>
+   <property name="Nuclear energy" method="RHF" stateMultiplicity="2" value="35.1621931444436"/>
+   <property name="Virial quotient" method="RHF" stateMultiplicity="2" value="-1.00054496917931"/>
+   <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1" stateNumber="1" stateMultiplicity="2"
+     value="0.63177939879062 0.702204650324465E-01 0.195048354628238"/>
+   <time start="11:22:21" end="11:22:21" cpu="0.44" system="0.08" real="0.54"/>
+   <storage units="megabyte" memory="244.14" sf="0.0" df="51.21" eaf="0.0"/>
+   <summary method="HF" basis="6-311G(D,P)" overall_method="HF/6-311G(D,P)"/>
+  </jobstep>
+  <jobstep command="OPTG" commandset="OPT">
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.114144300217009">
+      0.003817465382  -0.000523587505   0.007783457107
+     -0.034224541972   0.003978628351  -0.002063335560
+      0.030531821874  -0.004013330479  -0.010262417345
+      0.005024618521   0.000293542447   0.003265306254
+     -0.005149363805   0.000264747186   0.001276989545
+   </gradient>
+   <opt energy="-114.44359592" type="HF-SCF000" line="0.0" convergence="1.45480140114176" gradient="0.488330175526953E-01"/>
+   <jobstep command="HF-SCF" commandset="SCFPRO">
+    <cml:molecule>
+     <cml:symmetry pointGroup="C1">
+     </cml:symmetry>
+     <cml:atomArray>
+      <cml:atom id="a1" elementType="C" x3="0.184375799339907E-01" y3="-0.565909667759675E-01" z3="0.725064056262344"/>
+      <cml:atom id="a2" elementType="O" x3="-0.639955392163009E-01" y3="0.195771360070389E-01" z3="-0.630223941843268"/>
+      <cml:atom id="a3" elementType="H" x3="0.783567063528073" y3="-0.115551401481221" z3="-1.00982797805208"/>
+      <cml:atom id="a4" elementType="H" x3="0.927053992355974" y3="0.304411564676064" z3="1.17690966262004"/>
+      <cml:atom id="a5" elementType="H" x3="-0.914498781721058" y3="0.174255529332394" z3="1.20181326691685"/>
+     </cml:atomArray>
+     <cml:bondArray>
+      <cml:bond atomRefs2="a1 a2"/>
+      <cml:bond atomRefs2="a2 a3"/>
+      <cml:bond atomRefs2="a1 a4"/>
+      <cml:bond atomRefs2="a1 a5"/>
+     </cml:bondArray>
+    </cml:molecule>
+    <property name="Energy" method="RHF" principal="true" stateSymmetry="1" stateNumber="1" stateMultiplicity="2" value="-114.444910372978"/>
+    <property name="One-electron energy" method="RHF" stateMultiplicity="2" value="-226.72242993523"/>
+    <property name="Two-electron energy" method="RHF" stateMultiplicity="2" value="76.6705498507574"/>
+    <property name="Kinetic energy" method="RHF" stateMultiplicity="2" value="114.49937107041"/>
+    <property name="Nuclear energy" method="RHF" stateMultiplicity="2" value="35.6069697114942"/>
+    <property name="Virial quotient" method="RHF" stateMultiplicity="2" value="-0.999524358108496"/>
+    <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1" stateNumber="1" stateMultiplicity="2"
+      value="0.610025425049445 0.714905661319727E-01 0.173900842003135"/>
+    <time start="11:22:21" end="11:22:22" cpu="0.55" system="0.06" real="0.6"/>
+    <storage units="megabyte" memory="244.14" sf="0.0" df="51.67" eaf="0.0"/>
+    <summary method="HF" basis="6-311G(D,P)" overall_method="HF/6-311G(D,P)"/>
+   </jobstep>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.48227498894903E-02">
+      0.000660789762  -0.001350587939   0.004602675144
+      0.001077558229   0.000451933269  -0.002531369900
+     -0.001314460573   0.000485641895   0.001168062797
+     -0.001009363694  -0.000019601110  -0.001905767857
+      0.000585476275   0.000432613885  -0.001333600185
+   </gradient>
+   <opt energy="-114.44491037" type="HF-SCF000" line="0.0" convergence="0.43472755035968E-01" gradient="0.644252751558004E-02"/>
+   <jobstep command="HF-SCF" commandset="SCFPRO">
+    <cml:molecule>
+     <cml:symmetry pointGroup="C1">
+     </cml:symmetry>
+     <cml:atomArray>
+      <cml:atom id="a1" elementType="C" x3="0.183612237170454E-01" y3="-0.532048461073341E-01" z3="0.723406444578807"/>
+      <cml:atom id="a2" elementType="O" x3="-0.637860667085084E-01" y3="0.1984402910287E-01" z3="-0.630101557837493"/>
+      <cml:atom id="a3" elementType="H" x3="0.780055283920964" y3="-0.124383517990291" z3="-1.01522750808272"/>
+      <cml:atom id="a4" elementType="H" x3="0.928993812071838" y3="0.289639882110843" z3="1.18985058203243"/>
+      <cml:atom id="a5" elementType="H" x3="-0.915342141261531" y3="0.153305582398162" z3="1.21206645401875"/>
+     </cml:atomArray>
+     <cml:bondArray>
+      <cml:bond atomRefs2="a1 a2"/>
+      <cml:bond atomRefs2="a2 a3"/>
+      <cml:bond atomRefs2="a1 a4"/>
+      <cml:bond atomRefs2="a1 a5"/>
+     </cml:bondArray>
+    </cml:molecule>
+    <property name="Energy" method="RHF" principal="true" stateSymmetry="1" stateNumber="1" stateMultiplicity="2" value="-114.444953072625"/>
+    <property name="One-electron energy" method="RHF" stateMultiplicity="2" value="-226.711950249154"/>
+    <property name="Two-electron energy" method="RHF" stateMultiplicity="2" value="76.6657632774897"/>
+    <property name="Kinetic energy" method="RHF" stateMultiplicity="2" value="114.492655530408"/>
+    <property name="Nuclear energy" method="RHF" stateMultiplicity="2" value="35.6012338990396"/>
+    <property name="Virial quotient" method="RHF" stateMultiplicity="2" value="-0.999583357923158"/>
+    <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1" stateNumber="1" stateMultiplicity="2"
+      value="0.608337103769035 0.576019751008092E-01 0.170261947669252"/>
+    <time start="11:22:22" end="11:22:22" cpu="0.55" system="0.04" real="0.59"/>
+    <storage units="megabyte" memory="244.14" sf="0.0" df="51.67" eaf="0.0"/>
+    <summary method="HF" basis="6-311G(D,P)" overall_method="HF/6-311G(D,P)"/>
+   </jobstep>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.211087807090651E-02">
+     -0.000415806946   0.000944202050   0.000591421225
+      0.001564674863  -0.000703581555  -0.001716463714
+     -0.001286681810   0.000359570267   0.000327430966
+      0.000251604383  -0.000337611776   0.000300381332
+     -0.000113790490  -0.000262578985   0.000497230191
+   </gradient>
+   <opt energy="-114.44495307" type="HF-SCF000" line="0.0" convergence="0.113799929463642E-01" gradient="0.312927711871104E-02"/>
+   <jobstep command="HF-SCF" commandset="SCFPRO">
+    <cml:molecule>
+     <cml:symmetry pointGroup="C1">
+     </cml:symmetry>
+     <cml:atomArray>
+      <cml:atom id="a1" elementType="C" x3="0.185811089551833E-01" y3="-0.544650679396797E-01" z3="0.72289975896788"/>
+      <cml:atom id="a2" elementType="O" x3="-0.638450830118297E-01" y3="0.202256678591651E-01" z3="-0.629376047316529"/>
+      <cml:atom id="a3" elementType="H" x3="0.781286878914492" y3="-0.126563732625445" z3="-1.01420794872448"/>
+      <cml:atom id="a4" elementType="H" x3="0.926722949519658" y3="0.297036476204435" z3="1.1878657587887"/>
+      <cml:atom id="a5" elementType="H" x3="-0.915984378326697" y3="0.157037566424153" z3="1.20755036136343"/>
+     </cml:atomArray>
+     <cml:bondArray>
+      <cml:bond atomRefs2="a1 a2"/>
+      <cml:bond atomRefs2="a2 a3"/>
+      <cml:bond atomRefs2="a1 a4"/>
+      <cml:bond atomRefs2="a1 a5"/>
+     </cml:bondArray>
+    </cml:molecule>
+    <property name="Energy" method="RHF" principal="true" stateSymmetry="1" stateNumber="1" stateMultiplicity="2" value="-114.444965199436"/>
+    <property name="One-electron energy" method="RHF" stateMultiplicity="2" value="-226.744896336488"/>
+    <property name="Two-electron energy" method="RHF" stateMultiplicity="2" value="76.6818086077441"/>
+    <property name="Kinetic energy" method="RHF" stateMultiplicity="2" value="114.494157421428"/>
+    <property name="Nuclear energy" method="RHF" stateMultiplicity="2" value="35.6181225293086"/>
+    <property name="Virial quotient" method="RHF" stateMultiplicity="2" value="-0.999570351683435"/>
+    <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1" stateNumber="1" stateMultiplicity="2"
+      value="0.608242960339216 0.568695955991307E-01 0.167014525123271"/>
+    <time start="11:22:22" end="11:22:23" cpu="0.56" system="0.05" real="0.6"/>
+    <storage units="megabyte" memory="244.14" sf="0.0" df="51.67" eaf="0.0"/>
+    <summary method="HF" basis="6-311G(D,P)" overall_method="HF/6-311G(D,P)"/>
+   </jobstep>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.501772260084741E-03">
+     -0.000028765967   0.000172809445   0.000008737443
+     -0.000357567461  -0.000135204149   0.000127206733
+      0.000305018963   0.000069254352  -0.000097541160
+      0.000082894230  -0.000100041187   0.000023784985
+     -0.000001579765  -0.000006818460  -0.000062188001
+   </gradient>
+   <opt energy="-114.4449652" type="HF-SCF000" line="0.0" convergence="0.60196164964011E-02" gradient="0.567267040453264E-03"/>
+   <jobstep command="HF-SCF" commandset="SCFPRO">
+    <cml:molecule>
+     <cml:symmetry pointGroup="C1">
+     </cml:symmetry>
+     <cml:atomArray>
+      <cml:atom id="a1" elementType="C" x3="0.187035894406482E-01" y3="-0.547679469784432E-01" z3="0.722863649971522"/>
+      <cml:atom id="a2" elementType="O" x3="-0.638194983839984E-01" y3="0.205310569778644E-01" z3="-0.629302542281501"/>
+      <cml:atom id="a3" elementType="H" x3="0.780261102938196" y3="-0.129822761452344" z3="-1.01455938456184"/>
+      <cml:atom id="a4" elementType="H" x3="0.925866764147834" y3="0.299730310601769" z3="1.18741005227371"/>
+      <cml:atom id="a5" elementType="H" x3="-0.915966817688146" y3="0.156362344111315" z3="1.20762086941565"/>
+     </cml:atomArray>
+     <cml:bondArray>
+      <cml:bond atomRefs2="a1 a2"/>
+      <cml:bond atomRefs2="a2 a3"/>
+      <cml:bond atomRefs2="a1 a4"/>
+      <cml:bond atomRefs2="a1 a5"/>
+     </cml:bondArray>
+    </cml:molecule>
+    <property name="Energy" method="RHF" principal="true" stateSymmetry="1" stateNumber="1" stateMultiplicity="2" value="-114.444966458124"/>
+    <property name="One-electron energy" method="RHF" stateMultiplicity="2" value="-226.749503761623"/>
+    <property name="Two-electron energy" method="RHF" stateMultiplicity="2" value="76.6839276950964"/>
+    <property name="Kinetic energy" method="RHF" stateMultiplicity="2" value="114.494908476157"/>
+    <property name="Nuclear energy" method="RHF" stateMultiplicity="2" value="35.6206096084033"/>
+    <property name="Virial quotient" method="RHF" stateMultiplicity="2" value="-0.999563805773563"/>
+    <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1" stateNumber="1" stateMultiplicity="2"
+      value="0.607087282603657 0.537612599580577E-01 0.166791628215172"/>
+    <time start="11:22:23" end="11:22:23" cpu="0.52" system="0.07" real="0.6"/>
+    <storage units="megabyte" memory="244.14" sf="0.0" df="51.67" eaf="0.0"/>
+    <summary method="HF" basis="6-311G(D,P)" overall_method="HF/6-311G(D,P)"/>
+   </jobstep>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.281650023965922E-03">
+     -0.000030986500   0.000005834000  -0.000043406639
+     -0.000027585115  -0.000085059725   0.000134190517
+      0.000053470838   0.000071274622  -0.000030047801
+     -0.000007984874  -0.000032313361  -0.000042015688
+      0.000013085650   0.000040264464  -0.000018720389
+   </gradient>
+   <opt energy="-114.44496646" type="HF-SCF000" line="0.0" convergence="0.844880596646994E-02" gradient="0.20673592252639E-03"/>
+   <jobstep command="HF-SCF" commandset="SCFPRO">
+    <cml:molecule>
+     <cml:symmetry pointGroup="C1">
+     </cml:symmetry>
+     <cml:atomArray>
+      <cml:atom id="a1" elementType="C" x3="0.188179717909212E-01" y3="-0.548974169718254E-01" z3="0.72284566713883"/>
+      <cml:atom id="a2" elementType="O" x3="-0.63756156840614E-01" y3="0.209124311043079E-01" z3="-0.62931387055385"/>
+      <cml:atom id="a3" elementType="H" x3="0.77932621521853" y3="-0.134447407330473" z3="-1.01458960113548"/>
+      <cml:atom id="a4" elementType="H" x3="0.924843347014636" y3="0.30213432963198" z3="1.18785183514968"/>
+      <cml:atom id="a5" elementType="H" x3="-0.916375719928748" y3="0.154071865451624" z3="1.20760320948493"/>
+     </cml:atomArray>
+     <cml:bondArray>
+      <cml:bond atomRefs2="a1 a2"/>
+      <cml:bond atomRefs2="a2 a3"/>
+      <cml:bond atomRefs2="a1 a4"/>
+      <cml:bond atomRefs2="a1 a5"/>
+     </cml:bondArray>
+    </cml:molecule>
+    <property name="Energy" method="RHF" principal="true" stateSymmetry="1" stateNumber="1" stateMultiplicity="2" value="-114.444967123322"/>
+    <property name="One-electron energy" method="RHF" stateMultiplicity="2" value="-226.748682715479"/>
+    <property name="Two-electron energy" method="RHF" stateMultiplicity="2" value="76.6835063637327"/>
+    <property name="Kinetic energy" method="RHF" stateMultiplicity="2" value="114.49497568355"/>
+    <property name="Nuclear energy" method="RHF" stateMultiplicity="2" value="35.6202092284246"/>
+    <property name="Virial quotient" method="RHF" stateMultiplicity="2" value="-0.999563224849565"/>
+    <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1" stateNumber="1" stateMultiplicity="2"
+      value="0.605784916253399 0.489940359749945E-01 0.166961656678412"/>
+    <time start="11:22:24" end="11:22:24" cpu="0.53" system="0.07" real="0.59"/>
+    <storage units="megabyte" memory="244.14" sf="0.0" df="51.67" eaf="0.0"/>
+    <summary method="HF" basis="6-311G(D,P)" overall_method="HF/6-311G(D,P)"/>
+   </jobstep>
+   <jobstep command="HF-SCF" commandset="SCFPRO">
+    <property name="Energy" method="RHF" principal="true" stateSymmetry="1" stateNumber="1" stateMultiplicity="2" value="-114.444967123306"/>
+    <property name="One-electron energy" method="RHF" stateMultiplicity="2" value="-226.748682555702"/>
+    <property name="Two-electron energy" method="RHF" stateMultiplicity="2" value="76.6835062039707"/>
+    <property name="Kinetic energy" method="RHF" stateMultiplicity="2" value="114.494975616386"/>
+    <property name="Nuclear energy" method="RHF" stateMultiplicity="2" value="35.6202092284246"/>
+    <property name="Virial quotient" method="RHF" stateMultiplicity="2" value="-0.999563225435781"/>
+    <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1" stateNumber="1" stateMultiplicity="2"
+      value="0.607425838666049 0.541690724439196E-01 0.159221368400303"/>
+    <time start="11:22:24" end="11:22:24" cpu="0.24" system="0.05" real="0.29"/>
+    <storage units="megabyte" memory="244.14" sf="0.0" df="51.67" eaf="0.0"/>
+    <summary method="HF" basis="6-311G(D,P)" overall_method="HF/6-311G(D,P)"/>
+   </jobstep>
+   <time start="11:22:21" end="11:22:24" cpu="2.95" system="0.34" real="3.27"/>
+   <storage units="megabyte" memory="0.18" sf="0.0" df="51.67" eaf="0.0"/>
+   <summary method="HF" basis="6-311G(D,P)" geometry_method="HF" geometry_basis="6-311G(D,P)" overall_method="HF/6-311G(D,P)//HF/6-311G(D,P)"/>
+  </jobstep>
+  <jobstep command="FREQ" commandset="FREQ">
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.253515727580851E-03">
+      0.007076867593   0.000309352448  -0.000237312144
+     -0.001122787196   0.000046058833  -0.000411337647
+     -0.000003486912  -0.000013505199   0.000536886815
+     -0.002872644472  -0.001119348768  -0.000890793342
+     -0.003077949014   0.000777442687   0.001002556318
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.658782160410456E-03">
+     -0.007071777836  -0.000350700655   0.000128264173
+      0.001231560848  -0.000094554219   0.000521146542
+     -0.000100688466   0.000069416804  -0.000474690157
+      0.002769695012   0.001109018901   0.000856077828
+      0.003171210442  -0.000733180831  -0.001030798387
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.402950165746056E-02">
+      0.000346133019   0.001163883372   0.000384768702
+      0.000071951461  -0.000240735487   0.000261327500
+     -0.000059228553   0.000020176426  -0.000040645665
+     -0.000840837668  -0.000600094281  -0.000361422754
+      0.000481981741  -0.000343230030  -0.000244027783
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.337611927010734E-02">
+     -0.000313876818  -0.001316280657  -0.000582752286
+      0.000035278936   0.000206823940  -0.000152062259
+     -0.000045373874   0.000034027361   0.000102327624
+      0.000792627887   0.000646279320   0.000365869329
+     -0.000468656131   0.000429150036   0.000266617592
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.401902494849883E-02">
+     -0.000178529401   0.000445522568   0.006223437604
+      0.000082254511   0.000304701557  -0.003825909533
+     -0.000122346654   0.000058000276  -0.000201409192
+     -0.001011290156  -0.000468652054  -0.001080908269
+      0.001229911700  -0.000339572348  -0.001115210610
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.505230356173003E-02">
+      0.000186779862  -0.000521750447  -0.006582643763
+      0.000033197751  -0.000362238264   0.004081898828
+      0.000017153537  -0.000002248285   0.000267922141
+      0.000952559378   0.000485142878   0.001092744147
+     -0.001189690529   0.000401094119   0.001140078647
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.101042964207842E-01">
+     -0.001168849319  -0.000032139563  -0.000075210617
+      0.006346100800  -0.001040473118  -0.001756182782
+     -0.005339890090   0.001003631737   0.001750852835
+      0.000059183202   0.000092040259  -0.000335365961
+      0.000103455406  -0.000023059315   0.000415906525
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.919211903208646E-02">
+      0.001185478999  -0.000068851721  -0.000124401615
+     -0.006085428629   0.000952769573   0.001776075687
+      0.005083769310  -0.000907403973  -0.001597474442
+     -0.000102611608  -0.000067123072   0.000341577272
+     -0.000081208072   0.000090609193  -0.000395776902
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.150425888749109E-02">
+      0.000081501746  -0.000278409201   0.000233830641
+     -0.000956044470   0.000337593064   0.000281314021
+      0.000902913303  -0.000206185184  -0.000273579515
+     -0.000035042030   0.000087812395  -0.000154088244
+      0.000006671452   0.000059188926  -0.000087476904
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.215592988450998E-02">
+     -0.000059069479   0.000169259785  -0.000432933896
+      0.001036411272  -0.000361983111  -0.000165790026
+     -0.000983527406   0.000243698364   0.000329026158
+     -0.000009245888  -0.000060641697   0.000162341151
+      0.000015431502   0.000009666659   0.000107356613
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.782183314731807E-02">
+     -0.000462131289   0.000161109593  -0.004126905690
+     -0.001695168347   0.000193963904   0.005975410606
+      0.002192010615  -0.000379584097  -0.001333521404
+     -0.000029545754   0.000007115105  -0.000280026216
+     -0.000005165225   0.000017395495  -0.000234957296
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.679258569808979E-02">
+      0.000470542908  -0.000252510080   0.003780942274
+      0.001835463899  -0.000253019089  -0.005694981305
+     -0.002317887260   0.000439106964   0.001379064128
+     -0.000016657061   0.000016745921   0.000284034379
+      0.000028537514   0.000049676284   0.000250940525
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.920950657847828E-02">
+      0.000056230296  -0.000057581201  -0.000174245384
+     -0.005082060031   0.000900620637   0.002268925298
+      0.004991236326  -0.000880200329  -0.002071530150
+     -0.000001699522   0.000004256226  -0.000017019136
+      0.000036292932   0.000032904667  -0.000006130628
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.101562879487193E-01">
+     -0.000041033071  -0.000043673605  -0.000034576450
+      0.005341640689  -0.000986550373  -0.002242473765
+     -0.005244431895   0.000974561554   0.002225625932
+     -0.000042053352   0.000021051583   0.000024347807
+     -0.000014122371   0.000034610841   0.000027076476
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.203792098743041E-02">
+     -0.000032612838  -0.000058150422  -0.000075574662
+      0.000997770398  -0.000239822477  -0.000342915863
+     -0.000967561233   0.000233241731   0.000398247000
+     -0.000009831510   0.000005368565   0.000011423266
+      0.000012235183   0.000059362604   0.000008820258
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.134912556898349E-02">
+      0.000050307684  -0.000044305841  -0.000135863929
+     -0.000912516266   0.000210014608   0.000475753159
+      0.000886487916  -0.000194032770  -0.000347132522
+     -0.000034213447   0.000020024112  -0.000004009614
+      0.000009934113   0.000008299891   0.000011252907
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.576238080215992E-02">
+      0.000516675779  -0.000122432109  -0.000342390149
+      0.001736513105  -0.000326139142  -0.001287822097
+     -0.002210813974   0.000402142747   0.001665685859
+     -0.000030380115   0.000002616790   0.000029975849
+     -0.000011994795   0.000043811713  -0.000065449463
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.501583433221549E-02">
+     -0.000494910088   0.000020531693   0.000126897529
+     -0.001610384753   0.000276504014   0.001424822184
+      0.002084977692  -0.000343299784  -0.001614870302
+     -0.000013778760   0.000022508379  -0.000022325949
+      0.000034095909   0.000023755697   0.000085476538
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.628667645991291E-02">
+     -0.002783566293  -0.000851196109  -0.001067000306
+      0.000134676869  -0.000036349644   0.000053291043
+     -0.000031975166   0.000039718940   0.000022296982
+      0.002821354249   0.000947935259   0.001100406693
+     -0.000140489658  -0.000100108447  -0.000108994413
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.712128337058146E-02">
+      0.002858823147   0.000782673585   0.000897285543
+     -0.000027118879  -0.000010544768   0.000066151747
+     -0.000072315970   0.000015338925   0.000038893675
+     -0.002923639189  -0.000955795640  -0.001132440094
+      0.000164250891   0.000168327898   0.000130109128
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.192935996295282E-02">
+     -0.001104643262  -0.000681230209  -0.000581539003
+      0.000134040672   0.000051788175   0.000055772302
+     -0.000060544823   0.000020150393   0.000020645320
+      0.000929211185   0.000506022882   0.000470745128
+      0.000101936228   0.000103268760   0.000034376252
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.264971789179006E-02">
+      0.001123256753   0.000565210293   0.000372301256
+     -0.000025107719  -0.000096673544   0.000065358307
+     -0.000043733424   0.000034785748   0.000040515559
+     -0.000974070312  -0.000468689968  -0.000464130920
+     -0.000080345298  -0.000034632530  -0.000014044202
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.348438507475953E-02">
+     -0.000859496933  -0.000411643684  -0.001194825853
+     -0.000282424949  -0.000180969602  -0.000219399807
+     -0.000072760852   0.000035295261   0.000056723430
+      0.001087893526   0.000477238847   0.001243564956
+      0.000126789208   0.000080079178   0.000113937274
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.423048341458687E-02">
+      0.000886896607   0.000315665268   0.000978904001
+      0.000394540550   0.000135462616   0.000344643326
+     -0.000031356553   0.000019849142   0.000004409382
+     -0.001144531076  -0.000457659579  -0.001234574559
+     -0.000105549528  -0.000013317447  -0.000093382150
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.7363916829555E-02">
+     -0.003150687942   0.000435467854   0.001128934172
+      0.000147816093  -0.000027717132   0.000042886201
+     -0.000027003293   0.000028675758   0.000007309328
+     -0.000175238515   0.000103838815   0.000120250006
+      0.003205113656  -0.000540265294  -0.001299379707
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.651880952282301E-02">
+      0.003098462428  -0.000515518425  -0.001291229188
+     -0.000036826780  -0.000018955253   0.000076628781
+     -0.000077452539   0.000026381820   0.000053408613
+      0.000129519454  -0.000078442755  -0.000112106406
+     -0.003113702564   0.000586534613   0.001273298199
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.922801491000705E-03">
+      0.000769140401  -0.000443332111  -0.000477998642
+     -0.000002538229   0.000002109155   0.000044753762
+     -0.000053061003   0.000053078603   0.000040710347
+     -0.000156273839   0.000082358242   0.000050319589
+     -0.000557267330   0.000305786112   0.000342214944
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.163017285739227E-02">
+     -0.000741104858   0.000329129748   0.000262877012
+      0.000111090685  -0.000047420385   0.000076938027
+     -0.000051296252   0.000002023166   0.000020596221
+      0.000112120743  -0.000055585989  -0.000043125930
+      0.000569189682  -0.000228146541  -0.000317285330
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="0.392744918861725E-02">
+      0.001018298964  -0.000303969686  -0.001235546501
+      0.000458722898  -0.000120246194  -0.000180234066
+     -0.000068863818   0.000026317405  -0.000044604840
+     -0.000141133800   0.000036533201   0.000107334191
+     -0.001267024244   0.000361365274   0.001353051217
+   </gradient>
+   <gradient name="RHF GRADIENT" stateSymmetry="1" stateNumber="1" virial="-0.467890806873147E-02">
+     -0.001014478904   0.000206691119   0.001019800057
+     -0.000352971103   0.000074591355   0.000305658065
+     -0.000035631337   0.000028742728   0.000106309407
+      0.000097951387  -0.000011870411  -0.000099983086
+      0.001305129957  -0.000298154791  -0.001331784443
+   </gradient>
+   <cml:molecule>
+    <cml:symmetry pointGroup="C1">
+    </cml:symmetry>
+    <cml:atomArray>
+     <cml:atom id="a1" elementType="C" x3="0.188179717909212E-01" y3="-0.548974169718254E-01" z3="0.72284566713883"/>
+     <cml:atom id="a2" elementType="O" x3="-0.637561568406139E-01" y3="0.209124311043079E-01" z3="-0.62931387055385"/>
+     <cml:atom id="a3" elementType="H" x3="0.77932621521853" y3="-0.134447407330473" z3="-1.01458960113548"/>
+     <cml:atom id="a4" elementType="H" x3="0.924843347014636" y3="0.30213432963198" z3="1.18785183514968"/>
+     <cml:atom id="a5" elementType="H" x3="-0.916375719928748" y3="0.154071865451624" z3="1.20760320948493"/>
+    </cml:atomArray>
+    <cml:bondArray>
+     <cml:bond atomRefs2="a1 a2"/>
+     <cml:bond atomRefs2="a2 a3"/>
+     <cml:bond atomRefs2="a1 a4"/>
+     <cml:bond atomRefs2="a1 a5"/>
+    </cml:bondArray>
+   </cml:molecule>
+   <vibrations>
+    <normalCoordinate wavenumber="4190.16" units="inverseCentimetre" IRintensity="74.96" IRintensityunits="km/mol" symmetry="A" real_zero_imag="R">
+     -0.00216944  0.00038020 -0.00073560
+     -0.05377137  0.00973685  0.02650906
+      0.86348180 -0.15665943 -0.40409792
+      0.00463793  0.00013498 -0.00221426
+      0.01110184 -0.00253339 -0.00564694
+    </normalCoordinate>
+    <normalCoordinate wavenumber="3375.51" units="inverseCentimetre" IRintensity="32.88" IRintensityunits="km/mol" symmetry="A" real_zero_imag="R">
+     -0.09349343 -0.00034968  0.01511810
+      0.00146541 -0.00019022 -0.00048015
+     -0.01445220  0.00514321 -0.00170879
+      0.38968498  0.15703929  0.19681879
+      0.71472040 -0.15499996 -0.36749820
+    </normalCoordinate>
+    <normalCoordinate wavenumber="3235.85" units="inverseCentimetre" IRintensity="39.99" IRintensityunits="km/mol" symmetry="A" real_zero_imag="R">
+     -0.02376295 -0.02579920 -0.04925711
+      0.00024989 -0.00117798  0.00095704
+      0.00204603  0.00194820 -0.00330269
+      0.71620223  0.25198833  0.35428570
+     -0.43927278  0.07194541  0.22032407
+    </normalCoordinate>
+    <normalCoordinate wavenumber="1609.64" units="inverseCentimetre" IRintensity="18.14" IRintensityunits="km/mol" symmetry="A" real_zero_imag="R">
+     -0.00847103 -0.00196212 -0.10406807
+      0.00765499 -0.01121423  0.01407137
+     -0.02697614  0.00429067 -0.06806417
+     -0.34479378  0.06949323  0.53025090
+      0.35114277  0.12755674  0.55361119
+    </normalCoordinate>
+    <normalCoordinate wavenumber="1473.08" units="inverseCentimetre" IRintensity="47.41" IRintensityunits="km/mol" symmetry="A" real_zero_imag="R">
+      0.09327695 -0.00435713 -0.03259354
+     -0.07717306  0.00610234 -0.02074210
+      0.23887499 -0.06198212  0.67296713
+     -0.08592447 -0.04322787  0.37191898
+     -0.03879102  0.06024106 -0.32760823
+    </normalCoordinate>
+    <normalCoordinate wavenumber="1277.11" units="inverseCentimetre" IRintensity="128.21" IRintensityunits="km/mol" symmetry="A" real_zero_imag="R">
+     -0.01210253  0.01339849 -0.18988656
+      0.01211889 -0.00491947  0.16698645
+     -0.04288269  0.00048206  0.06363661
+      0.02471890 -0.03416713 -0.23991605
+     -0.03006897 -0.04777281 -0.21296909
+    </normalCoordinate>
+    <normalCoordinate wavenumber="1153.62" units="inverseCentimetre" IRintensity="45.7" IRintensityunits="km/mol" symmetry="A" real_zero_imag="R">
+     -0.05978001 -0.02056575 -0.01159635
+      0.00797910  0.01476647 -0.02505794
+      0.25617630 -0.07420262  0.54580332
+      0.13549578  0.12657037 -0.49795049
+      0.19348424 -0.04184929  0.48791039
+    </normalCoordinate>
+    <normalCoordinate wavenumber="902.16" units="inverseCentimetre" IRintensity="24.0" IRintensityunits="km/mol" symmetry="A" real_zero_imag="R">
+      0.01104958 -0.13512373  0.01248215
+      0.00032768  0.02573872  0.01393217
+     -0.02686097  0.03781469 -0.05169534
+     -0.15334957  0.56977292 -0.13603398
+      0.04344447  0.59281547 -0.18200715
+    </normalCoordinate>
+    <normalCoordinate wavenumber="415.22" units="inverseCentimetre" IRintensity="130.12" IRintensityunits="km/mol" symmetry="A" real_zero_imag="R">
+     -0.01959528  0.01182810  0.00053234
+     -0.00799181 -0.06192378 -0.00117361
+      0.16360961  0.79147397  0.03702005
+      0.12767005 -0.32507517 -0.03955315
+      0.06887383  0.37554113  0.01482073
+    </normalCoordinate>
+    <normalCoordinate wavenumber="0.0" units="inverseCentimetre" IRintensity="0.0" IRintensityunits="km/mol" symmetry="Err" real_zero_imag="Z">
+     -0.14210926  0.16229565  0.08330267
+     -0.06445094  0.04175738  0.07180213
+     -0.06035382 -0.08088614  0.13022286
+     -0.12978190  0.11432793  0.09611347
+     -0.14588939  0.30381160  0.01500534
+    </normalCoordinate>
+    <normalCoordinate wavenumber="0.0" units="inverseCentimetre" IRintensity="0.0" IRintensityunits="km/mol" symmetry="Err" real_zero_imag="Z">
+     -0.01538598  0.01593791 -0.05950188
+      0.01191070  0.21092779 -0.05023658
+      0.04263777  0.37887433 -0.05072115
+     -0.07445637  0.06269732  0.01968995
+     -0.05579707 -0.17908795 -0.05339116
+    </normalCoordinate>
+    <normalCoordinate wavenumber="0.0" units="inverseCentimetre" IRintensity="0.0" IRintensityunits="km/mol" symmetry="Err" real_zero_imag="Z">
+      0.14300768 -0.01289099  0.12858659
+     -0.02050529  0.05469128  0.14236110
+     -0.04815266  0.16671517  0.03668867
+      0.15822990  0.05781437  0.04463980
+      0.17634937 -0.14039758  0.24787488
+    </normalCoordinate>
+    <normalCoordinate wavenumber="0.0" units="inverseCentimetre" IRintensity="0.0" IRintensityunits="km/mol" symmetry="Err" real_zero_imag="Z">
+     -0.00244665  0.05038686  0.00127506
+     -0.02042080 -0.09106829 -0.00555808
+      0.07909303  0.38104563  0.02182702
+     -0.22279063  0.61796705 -0.00519133
+     -0.13563481 -0.46937667 -0.03161173
+    </normalCoordinate>
+    <normalCoordinate wavenumber="0.0" units="inverseCentimetre" IRintensity="0.0" IRintensityunits="km/mol" symmetry="Err" real_zero_imag="Z">
+      0.14060652  0.18469598 -0.05096704
+      0.04111779 -0.00160586 -0.05533658
+      0.00646912 -0.08554664 -0.09730822
+      0.18846160  0.21751555 -0.16940750
+      0.18468228  0.28583955 -0.00953711
+    </normalCoordinate>
+    <normalCoordinate wavenumber="0.0" units="inverseCentimetre" IRintensity="0.0" IRintensityunits="km/mol" symmetry="Err" real_zero_imag="Z">
+     -0.01911138  0.01524221  0.05314525
+      0.21567010  0.00012150  0.03795979
+      0.28213698 -0.00629396  0.18599341
+     -0.09892101  0.01830835  0.20629340
+     -0.10270783  0.02300887 -0.11147697
+    </normalCoordinate>
+   </vibrations>
+   <jobstep command="HF-SCF" commandset="SCFPRO">
+    <property name="Energy" method="RHF" principal="true" stateSymmetry="1" stateNumber="1" stateMultiplicity="2" value="-114.444967123306"/>
+    <property name="One-electron energy" method="RHF" stateMultiplicity="2" value="-226.74868250098"/>
+    <property name="Two-electron energy" method="RHF" stateMultiplicity="2" value="76.6835061492496"/>
+    <property name="Kinetic energy" method="RHF" stateMultiplicity="2" value="114.494975556411"/>
+    <property name="Nuclear energy" method="RHF" stateMultiplicity="2" value="35.6202092284246"/>
+    <property name="Virial quotient" method="RHF" stateMultiplicity="2" value="-0.999563225959373"/>
+    <property name="Dipole moment" method="RHF" principal="true" stateSymmetry="1" stateNumber="1" stateMultiplicity="2"
+      value="0.607425805537023 0.54169094974599E-01 0.159221336270336"/>
+    <time start="11:22:42" end="11:22:42" cpu="0.47" system="0.06" real="0.54"/>
+    <storage units="megabyte" memory="244.14" sf="0.0" df="51.95" eaf="0.0"/>
+    <summary method="HF" basis="6-311G(D,P)" overall_method="HF/6-311G(D,P)"/>
+   </jobstep>
+   <time start="11:22:24" end="11:22:42" cpu="16.33" system="1.69" real="18.12"/>
+   <storage units="megabyte" memory="0.18" sf="0.0" df="51.95" eaf="0.0"/>
+   <summary method="HF" basis="6-311G(D,P)" overall_method="HF/6-311G(D,P)"/>
+  </jobstep>
+  <input>
+   <p>                    orient,mass</p>
+   <p>                    geometry=initial.xyz</p>
+   <include file="/home/lme/Theoretische_Chemie/Nomodeco/ase_databank_integration/H2COH.molpro/run/H2COH_1.molpro/initial.xyz"/>
+   <p>                    mass, iso</p>
+   <p>                    basis=6-311g(d,p)</p>
+   <p>                    {hf</p>
+   <p>                    start, atden}</p>
+   <p>                    optg;</p>
+   <p>                    {frequencies, symm=auto, print=0, analytical}</p>
+   <p>                    put, molden, H2COH.molden</p>
+  </input>
+  <diagnostics warnings="0"/>
+ </job>
+</molpro>
