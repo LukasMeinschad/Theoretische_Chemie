@@ -1,0 +1,85 @@
+   __________  ___    ____  __  __      __________
+  / ____/ __ \/   |  / __ \/ / / /     /  _/ ____/
+ / / __/ /_/ / /| | / /_/ / /_/ /_____ / // /     
+/ /_/ / _, _/ ___ |/ ____/ __  /_____// // /___   
+\____/_/ |_/_/  |_/_/   /_/ /_/     /___/\____/   
+                                                  
+
+=== General Graph Analysis ===
+Chemical Formula: CH4O
+Average Degree: 1.67
+Wiener Index: 28.0
+=== ICs generated for Molecule ===
+Bonds
+('H1', 'C')
+('C', 'H2')
+('C', 'H3')
+('C', 'O')
+('O', 'H4')
+Angles
+('H1', 'C', 'H2')
+('H1', 'C', 'H3')
+('H1', 'C', 'O')
+('C', 'O', 'H4')
+('H2', 'C', 'H3')
+('H2', 'C', 'O')
+('H3', 'C', 'O')
+Dihedrals
+('H1', 'C', 'O', 'H4')
+('H2', 'C', 'O', 'H4')
+('H3', 'C', 'O', 'H4')
+=== Total Combinations ICs ===
+(IDOF, TOT_ICs) = 455
+=== IC Types needed (DECIUS) ===
+Bonds needed: 5
+Angles needed: 6
+Dihedrals needed: 1
+Bond subsets: 1
+Angle subsets: 7
+Dihderal subsets: 3
+
+
+Total combinations with Decius Rules: 21
+=== Spectral Bisection analysis subgraph 1 ===
+Bonds
+('H1', 'C')
+('C', 'H2')
+('C', 'H3')
+Angles
+('H1', 'C', 'H2')
+('H1', 'C', 'H3')
+('H2', 'C', 'H3')
+
+
+Application of Decius Rules to Submolecules
+Bond needed: 3
+Angles needed: 3
+Dihedrals needed: 0
+Bond subsets: 1
+Angle subsets: 1
+Dihedrals subsets: 1
+Total combination with Decius Rules: 1
+=== Spectral Bisection analysis subgraph 2 ===
+Bonds
+('O', 'H4')
+
+
+Application of Decius Rules to Submolecules
+Bond needed: 1
+Angles needed: 0
+Dihedrals needed: -1
+Bond subsets: 1
+Angle subsets: 1
+Dihedrals subsets: 1
+Total combination with Decius Rules: 1
+=== Combinations after Spectral Bisection ===
+Possible combinations submolecules: 1
+Bond subsets: 1
+Angle subsets: 4
+Dihedral subsets: 3
+Spectral Bisection Total Sets: 12
+=== Graph Pruning Approach ===
+Bonds needed: 1
+Angles needed: 0
+Dihedrals needed: -1
+Total IC sets: 21
